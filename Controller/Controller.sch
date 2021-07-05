@@ -1165,9 +1165,9 @@ F 3 "~" H 2600 7350 50  0001 C CNN
 	1    2600 7350
 	1    0    0    1   
 $EndComp
-Text GLabel 1050 5600 0    50   Input ~ 0
+Text GLabel 1050 5700 0    50   Input ~ 0
 Probe_SDA
-Text GLabel 1050 5500 0    50   Input ~ 0
+Text GLabel 1050 5600 0    50   Input ~ 0
 Probe_SCL
 $Comp
 L Connector:Conn_01x06_Male J1
@@ -1233,7 +1233,7 @@ Wire Wire Line
 	1100 5300 1200 5300
 Wire Wire Line
 	1100 5400 1200 5400
-Text GLabel 1050 5700 0    50   Input ~ 0
+Text GLabel 1050 5500 0    50   Input ~ 0
 Probe_RST
 Wire Wire Line
 	1200 5750 1200 5700
@@ -1261,14 +1261,10 @@ Wire Wire Line
 	6850 4450 6750 4450
 Wire Wire Line
 	6750 4550 6850 4550
-Text GLabel 2850 5800 0    50   Input ~ 0
-ESP_BOOT
-Text GLabel 3350 5700 2    50   Input ~ 0
-ESP_TX
 Text GLabel 2850 5700 0    50   Input ~ 0
+ESP_BOOT
+Text GLabel 2850 5800 0    50   Input ~ 0
 ESP_RX
-Text GLabel 3350 5800 2    50   Input ~ 0
-ESP_EN
 Wire Wire Line
 	8900 4900 9300 4900
 Connection ~ 9300 4900
@@ -1419,15 +1415,15 @@ Text GLabel 6050 2700 0    50   Input ~ 0
 EXT_SDA
 Text GLabel 6050 2600 0    50   Input ~ 0
 EXT_SCL
-Text GLabel 4500 2800 0    50   Input ~ 0
+Text GLabel 4500 2900 0    50   Input ~ 0
 EXT_MISO
-Text GLabel 6050 3600 0    50   Input ~ 0
-EXT_TX
 Text GLabel 6050 3700 0    50   Input ~ 0
+EXT_TX
+Text GLabel 6050 3600 0    50   Input ~ 0
 EXT_RX
 Text GLabel 4500 2600 0    50   Input ~ 0
 EXT_SCK
-Text GLabel 4500 2900 0    50   Input ~ 0
+Text GLabel 4500 2700 0    50   Input ~ 0
 EXT_CS
 $Comp
 L power:GND #PWR026
@@ -1465,12 +1461,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR014
 U 1 1 61EBC4BE
-P 4500 3400
-F 0 "#PWR014" H 4500 3250 50  0001 C CNN
-F 1 "+3.3V" V 4515 3528 50  0000 L CNN
-F 2 "" H 4500 3400 50  0001 C CNN
-F 3 "" H 4500 3400 50  0001 C CNN
-	1    4500 3400
+P 4500 3500
+F 0 "#PWR014" H 4500 3350 50  0001 C CNN
+F 1 "+3.3V" V 4515 3628 50  0000 L CNN
+F 2 "" H 4500 3500 50  0001 C CNN
+F 3 "" H 4500 3500 50  0001 C CNN
+	1    4500 3500
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1503,12 +1499,12 @@ EXT_IO4
 $Comp
 L power:+5V #PWR012
 U 1 1 61EEF14E
-P 4500 3500
-F 0 "#PWR012" H 4500 3350 50  0001 C CNN
-F 1 "+5V" V 4515 3628 50  0000 L CNN
-F 2 "" H 4500 3500 50  0001 C CNN
-F 3 "" H 4500 3500 50  0001 C CNN
-	1    4500 3500
+P 4500 3400
+F 0 "#PWR012" H 4500 3250 50  0001 C CNN
+F 1 "+5V" V 4515 3528 50  0000 L CNN
+F 2 "" H 4500 3400 50  0001 C CNN
+F 3 "" H 4500 3400 50  0001 C CNN
+	1    4500 3400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1533,7 +1529,7 @@ F 3 "" H 6050 2500 50  0001 C CNN
 	1    6050 2500
 	0    -1   1    0   
 $EndComp
-Text GLabel 4500 2700 0    50   Input ~ 0
+Text GLabel 4500 2800 0    50   Input ~ 0
 EXT_MOSI
 $Comp
 L power:+3.3V #PWR016
@@ -1871,7 +1867,7 @@ Connection ~ 5500 800
 Wire Wire Line
 	5700 900  5700 800 
 Connection ~ 5700 800 
-Text GLabel 1600 6800 2    39   Input ~ 0
+Text GLabel 1600 7200 2    39   Input ~ 0
 LCD_CS
 Text GLabel 1100 7200 0    39   Input ~ 0
 DISP_RST
@@ -1879,7 +1875,7 @@ Text GLabel 1100 7100 0    39   Input ~ 0
 TOUCH_INT
 Text GLabel 1100 6800 0    39   Input ~ 0
 LCD_BackLight
-Text GLabel 1600 7000 2    39   Input ~ 0
+Text GLabel 1600 6800 2    39   Input ~ 0
 LCD_MOSI
 Text GLabel 1600 7100 2    39   Input ~ 0
 LCD_MISO
@@ -1889,7 +1885,7 @@ Text GLabel 1100 6900 0    39   Input ~ 0
 TOUCH_SDA
 Text GLabel 1100 7000 0    39   Input ~ 0
 TOUCH_SCL
-Text GLabel 1600 7200 2    39   Input ~ 0
+Text GLabel 1600 7000 2    39   Input ~ 0
 LCD_SCLK
 $Comp
 L power:+3.3V #PWR03
@@ -2097,7 +2093,7 @@ U 1 1 612E45E4
 P 2050 4600
 F 0 "J22" H 2050 4330 50  0000 C CNN
 F 1 "1775485-2" H 2100 4800 50  0000 C CNN
-F 2 "TE_1775485-2" H 2050 4600 50  0001 L BNN
+F 2 "snapeda:TE_1775485-2" H 2050 4600 50  0001 L BNN
 F 3 "" H 2050 4600 50  0001 L BNN
 F 4 "Compliant" H 2050 4600 50  0001 L BNN "EU_RoHS_Compliance"
 F 5 "1775485-2" H 2050 4600 50  0001 L BNN "Comment"
@@ -2110,4 +2106,8 @@ Wire Wire Line
 	2150 4500 2250 4500
 Wire Wire Line
 	2250 4500 2250 4600
+Text GLabel 3350 5700 2    50   Input ~ 0
+ESP_EN
+Text GLabel 3350 5800 2    50   Input ~ 0
+ESP_TX
 $EndSCHEMATC
