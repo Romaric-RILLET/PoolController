@@ -20,7 +20,10 @@ P 2150 3100
 F 0 "U1" H 2150 5665 50  0000 C CNN
 F 1 "Teensy4.1" H 2150 5574 50  0000 C CNN
 F 2 "teensy:Teensy41" H 1750 3500 50  0001 C CNN
-F 3 "" H 1750 3500 50  0001 C CNN
+F 3 "https://www.pjrc.com/store/teensy41.html" H 1750 3500 50  0001 C CNN
+F 4 "PJRC" H 2150 3100 50  0001 C CNN "Manufacturer"
+F 5 "Teensy 4.1 ARM Cortex-M7" H 2150 3100 50  0001 C CNN "Description"
+F 6 "485-4622" H 2150 3100 50  0001 C CNN "mouser_pn"
 	1    2150 3100
 	1    0    0    -1  
 $EndComp
@@ -33,11 +36,10 @@ F 1 "J1B1211CCD" H 10150 1074 50  0000 C CNN
 F 2 "SamacSys_Parts:J1B1211CCD" H 10450 1000 50  0001 L CNN
 F 3 "https://www.wiznet.hk/en/index.php?controller=attachment&id_attachment=2" H 10450 900 50  0001 L CNN
 F 4 "SINGLE RJ45 CONNECTOR MODULE WITH 10/100 BASE-TX MAGNETICS AND LEDS" H 10450 800 50  0001 L CNN "Description"
-F 5 "" H 10450 700 50  0001 L CNN "Height"
-F 6 "950-J1B1211CCD" H 10450 600 50  0001 L CNN "Mouser Part Number"
-F 7 "http://www.mouser.com/Search/ProductDetail.aspx?qs=6pHq9bjOlanFLUlTDcmBeQ%3d%3d" H 10450 500 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Wiznet Technology" H 10450 400 50  0001 L CNN "Manufacturer_Name"
-F 9 "J1B1211CCD" H 10450 300 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "950-J1B1211CCD" H 10450 600 50  0001 L CNN "mouser_pn"
+F 6 "J1B1211CCD" H 10450 300 50  0001 L CNN "mpn"
+F 7 "Wiznet Technology" H 9700 900 50  0001 C CNN "Manufacturer"
+F 8 "1278-1052-ND" H 9700 900 50  0001 C CNN "digikey_pn"
 	1    9700 900 
 	1    0    0    -1  
 $EndComp
@@ -77,11 +79,13 @@ P 9700 2850
 F 0 "K1" H 9700 3217 50  0000 C CNN
 F 1 "ALQ305" H 9700 3126 50  0000 C CNN
 F 2 "snapeda:RELAY_ALQ305" H 9700 2850 50  0001 L BNN
-F 3 "" H 9700 2850 50  0001 L BNN
-F 4 "Panasonic" H 9700 2850 50  0001 L BNN "MANUFACTURER"
-F 5 "16 mm" H 9700 2850 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "2020.08" H 9700 2850 50  0001 L BNN "PARTREV"
-F 7 "Manufacturer Recommendations" H 9700 2850 50  0001 L BNN "STANDARD"
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/306" H 9700 2850 50  0001 L BNN
+F 4 "Panasonic" H 9700 2850 50  0001 C CNN "Manufacturer"
+F 5 "255-3559-ND" H 9700 2850 50  0001 C CNN "digikey_pn"
+F 6 "769-ALQ305" H 9700 2850 50  0001 C CNN "mouser_pn"
+F 7 "ALQ305" H 9700 2850 50  0001 C CNN "mpn"
+F 8 "General Purpose Relay SPST-NO (1 Form A) 5VDC Coil" H 9700 2850 50  0001 C CNN "Description"
+F 9 "2503676" H 9700 2850 50  0001 C CNN "farnell_pn"
 	1    9700 2850
 	1    0    0    -1  
 $EndComp
@@ -92,7 +96,12 @@ P 10450 2900
 F 0 "J14" H 10530 2892 50  0000 L CNN
 F 1 "Acid Pump" H 10530 2801 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 10450 2900 50  0001 C CNN
-F 3 "~" H 10450 2900 50  0001 C CNN
+F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html" H 10450 2900 50  0001 C CNN
+F 4 "277-1247-ND" H 10450 2900 50  0001 C CNN "digikey_pn"
+F 5 "Phoenix Contact" H 10450 2900 50  0001 C CNN "Manufacturer"
+F 6 "1729128" H 10450 2900 50  0001 C CNN "mpn"
+F 7 "3041440 " H 10450 2900 50  0001 C CNN "farnell_pn"
+F 8 "651-1729128" H 10450 2900 50  0001 C CNN "mouser_pn"
 	1    10450 2900
 	1    0    0    1   
 $EndComp
@@ -103,11 +112,13 @@ P 9700 3600
 F 0 "K2" H 9700 3967 50  0000 C CNN
 F 1 "ALQ305" H 9700 3876 50  0000 C CNN
 F 2 "snapeda:RELAY_ALQ305" H 9700 3600 50  0001 L BNN
-F 3 "" H 9700 3600 50  0001 L BNN
-F 4 "Panasonic" H 9700 3600 50  0001 L BNN "MANUFACTURER"
-F 5 "16 mm" H 9700 3600 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "2020.08" H 9700 3600 50  0001 L BNN "PARTREV"
-F 7 "Manufacturer Recommendations" H 9700 3600 50  0001 L BNN "STANDARD"
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/306" H 9700 3600 50  0001 L BNN
+F 4 "Panasonic" H 9700 3600 50  0001 C CNN "Manufacturer"
+F 5 "255-3559-ND" H 9700 3600 50  0001 C CNN "digikey_pn"
+F 6 "769-ALQ305" H 9700 3600 50  0001 C CNN "mouser_pn"
+F 7 "ALQ305" H 9700 3600 50  0001 C CNN "mpn"
+F 8 "General Purpose Relay SPST-NO (1 Form A) 5VDC Coil" H 9700 3600 50  0001 C CNN "Description"
+F 9 "2503676" H 9700 3600 50  0001 C CNN "farnell_pn"
 	1    9700 3600
 	1    0    0    -1  
 $EndComp
@@ -118,7 +129,12 @@ P 10450 3650
 F 0 "J15" H 10530 3642 50  0000 L CNN
 F 1 "Chlorine Pump" H 10530 3551 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 10450 3650 50  0001 C CNN
-F 3 "~" H 10450 3650 50  0001 C CNN
+F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html" H 10450 3650 50  0001 C CNN
+F 4 "277-1247-ND" H 10450 3650 50  0001 C CNN "digikey_pn"
+F 5 "Phoenix Contact" H 10450 3650 50  0001 C CNN "Manufacturer"
+F 6 "1729128" H 10450 3650 50  0001 C CNN "mpn"
+F 7 "3041440 " H 10450 3650 50  0001 C CNN "farnell_pn"
+F 8 "651-1729128" H 10450 3650 50  0001 C CNN "mouser_pn"
 	1    10450 3650
 	1    0    0    1   
 $EndComp
@@ -129,11 +145,13 @@ P 9700 4250
 F 0 "K3" H 9700 4617 50  0000 C CNN
 F 1 "ALQ305" H 9700 4526 50  0000 C CNN
 F 2 "snapeda:RELAY_ALQ305" H 9700 4250 50  0001 L BNN
-F 3 "" H 9700 4250 50  0001 L BNN
-F 4 "Panasonic" H 9700 4250 50  0001 L BNN "MANUFACTURER"
-F 5 "16 mm" H 9700 4250 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "2020.08" H 9700 4250 50  0001 L BNN "PARTREV"
-F 7 "Manufacturer Recommendations" H 9700 4250 50  0001 L BNN "STANDARD"
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/306" H 9700 4250 50  0001 L BNN
+F 4 "Panasonic" H 9700 4250 50  0001 C CNN "Manufacturer"
+F 5 "255-3559-ND" H 9700 4250 50  0001 C CNN "digikey_pn"
+F 6 "769-ALQ305" H 9700 4250 50  0001 C CNN "mouser_pn"
+F 7 "ALQ305" H 9700 4250 50  0001 C CNN "mpn"
+F 8 "General Purpose Relay SPST-NO (1 Form A) 5VDC Coil" H 9700 4250 50  0001 C CNN "Description"
+F 9 "2503676" H 9700 4250 50  0001 C CNN "farnell_pn"
 	1    9700 4250
 	1    0    0    -1  
 $EndComp
@@ -144,7 +162,12 @@ P 10450 4300
 F 0 "J16" H 10530 4292 50  0000 L CNN
 F 1 "Filtration Pump" H 10530 4201 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 10450 4300 50  0001 C CNN
-F 3 "~" H 10450 4300 50  0001 C CNN
+F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html" H 10450 4300 50  0001 C CNN
+F 4 "277-1247-ND" H 10450 4300 50  0001 C CNN "digikey_pn"
+F 5 "Phoenix Contact" H 10450 4300 50  0001 C CNN "Manufacturer"
+F 6 "1729128" H 10450 4300 50  0001 C CNN "mpn"
+F 7 "3041440 " H 10450 4300 50  0001 C CNN "farnell_pn"
+F 8 "651-1729128" H 10450 4300 50  0001 C CNN "mouser_pn"
 	1    10450 4300
 	1    0    0    1   
 $EndComp
@@ -155,11 +178,13 @@ P 9700 5000
 F 0 "K4" H 9700 5367 50  0000 C CNN
 F 1 "ALQ305" H 9700 5276 50  0000 C CNN
 F 2 "snapeda:RELAY_ALQ305" H 9700 5000 50  0001 L BNN
-F 3 "" H 9700 5000 50  0001 L BNN
-F 4 "Panasonic" H 9700 5000 50  0001 L BNN "MANUFACTURER"
-F 5 "16 mm" H 9700 5000 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "2020.08" H 9700 5000 50  0001 L BNN "PARTREV"
-F 7 "Manufacturer Recommendations" H 9700 5000 50  0001 L BNN "STANDARD"
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/306" H 9700 5000 50  0001 L BNN
+F 4 "Panasonic" H 9700 5000 50  0001 C CNN "Manufacturer"
+F 5 "255-3559-ND" H 9700 5000 50  0001 C CNN "digikey_pn"
+F 6 "769-ALQ305" H 9700 5000 50  0001 C CNN "mouser_pn"
+F 7 "ALQ305" H 9700 5000 50  0001 C CNN "mpn"
+F 8 "General Purpose Relay SPST-NO (1 Form A) 5VDC Coil" H 9700 5000 50  0001 C CNN "Description"
+F 9 "2503676" H 9700 5000 50  0001 C CNN "farnell_pn"
 	1    9700 5000
 	1    0    0    -1  
 $EndComp
@@ -170,7 +195,12 @@ P 10450 5050
 F 0 "J17" H 10530 5042 50  0000 L CNN
 F 1 "Lighting" H 10530 4951 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 10450 5050 50  0001 C CNN
-F 3 "~" H 10450 5050 50  0001 C CNN
+F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html" H 10450 5050 50  0001 C CNN
+F 4 "277-1247-ND" H 10450 5050 50  0001 C CNN "digikey_pn"
+F 5 "Phoenix Contact" H 10450 5050 50  0001 C CNN "Manufacturer"
+F 6 "1729128" H 10450 5050 50  0001 C CNN "mpn"
+F 7 "3041440 " H 10450 5050 50  0001 C CNN "farnell_pn"
+F 8 "651-1729128" H 10450 5050 50  0001 C CNN "mouser_pn"
 	1    10450 5050
 	1    0    0    1   
 $EndComp
@@ -181,11 +211,13 @@ P 9700 5750
 F 0 "K5" H 9700 6117 50  0000 C CNN
 F 1 "ALQ305" H 9700 6026 50  0000 C CNN
 F 2 "snapeda:RELAY_ALQ305" H 9700 5750 50  0001 L BNN
-F 3 "" H 9700 5750 50  0001 L BNN
-F 4 "Panasonic" H 9700 5750 50  0001 L BNN "MANUFACTURER"
-F 5 "16 mm" H 9700 5750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 6 "2020.08" H 9700 5750 50  0001 L BNN "PARTREV"
-F 7 "Manufacturer Recommendations" H 9700 5750 50  0001 L BNN "STANDARD"
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/306" H 9700 5750 50  0001 L BNN
+F 4 "Panasonic" H 9700 5750 50  0001 C CNN "Manufacturer"
+F 5 "255-3559-ND" H 9700 5750 50  0001 C CNN "digikey_pn"
+F 6 "769-ALQ305" H 9700 5750 50  0001 C CNN "mouser_pn"
+F 7 "ALQ305" H 9700 5750 50  0001 C CNN "mpn"
+F 8 "General Purpose Relay SPST-NO (1 Form A) 5VDC Coil" H 9700 5750 50  0001 C CNN "Description"
+F 9 "2503676" H 9700 5750 50  0001 C CNN "farnell_pn"
 	1    9700 5750
 	1    0    0    -1  
 $EndComp
@@ -196,7 +228,12 @@ P 10450 5800
 F 0 "J18" H 10530 5792 50  0000 L CNN
 F 1 "Relay_Ext" H 10530 5701 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 10450 5800 50  0001 C CNN
-F 3 "~" H 10450 5800 50  0001 C CNN
+F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html" H 10450 5800 50  0001 C CNN
+F 4 "277-1247-ND" H 10450 5800 50  0001 C CNN "digikey_pn"
+F 5 "Phoenix Contact" H 10450 5800 50  0001 C CNN "Manufacturer"
+F 6 "1729128" H 10450 5800 50  0001 C CNN "mpn"
+F 7 "3041440 " H 10450 5800 50  0001 C CNN "farnell_pn"
+F 8 "651-1729128" H 10450 5800 50  0001 C CNN "mouser_pn"
 	1    10450 5800
 	1    0    0    1   
 $EndComp
@@ -240,6 +277,11 @@ F 0 "U5" H 7250 5017 50  0000 C CNN
 F 1 "ULN2003A" H 7250 4926 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 7300 3800 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7350 4150 50  0001 C CNN
+F 4 "Texas Instruments" H 7250 4350 50  0001 C CNN "Manufacturer"
+F 5 "296-36174-5-ND" H 7250 4350 50  0001 C CNN "digikey_pn"
+F 6 "3125096" H 7250 4350 50  0001 C CNN "farnell_pn"
+F 7 "595-ULN2003ANE4" H 7250 4350 50  0001 C CNN "mouser_pn"
+F 8 "ULN2003ANE4" H 7250 4350 50  0001 C CNN "mpn"
 	1    7250 4350
 	1    0    0    -1  
 $EndComp
@@ -594,15 +636,10 @@ F 0 "U3" H 7000 1287 60  0000 C CNN
 F 1 "V7805-1000" H 7000 1181 60  0000 C CNN
 F 2 "digikey-footprints:3-SIP_Module_V7805-1000" H 7200 1100 60  0001 L CNN
 F 3 "https://www.cui.com/product/resource/digikeypdf/v78xx-1000.pdf" H 7200 1200 60  0001 L CNN
-F 4 "102-1715-ND" H 7200 1300 60  0001 L CNN "Digi-Key_PN"
-F 5 "V7805-1000" H 7200 1400 60  0001 L CNN "MPN"
-F 6 "Power Supplies - Board Mount" H 7200 1500 60  0001 L CNN "Category"
-F 7 "DC DC Converters" H 7200 1600 60  0001 L CNN "Family"
-F 8 "https://www.cui.com/product/resource/digikeypdf/v78xx-1000.pdf" H 7200 1700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cui-inc/V7805-1000/102-1715-ND/1828608" H 7200 1800 60  0001 L CNN "DK_Detail_Page"
-F 10 "DC DC CONVERTER 5V 5W" H 7200 1900 60  0001 L CNN "Description"
-F 11 "CUI Inc." H 7200 2000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7200 2100 60  0001 L CNN "Status"
+F 4 "102-1715-ND" H 7200 1300 60  0001 L CNN "digikey_pn"
+F 5 "V7805-1000" H 7200 1400 60  0001 L CNN "mpn"
+F 6 "DC DC CONVERTER 5V 5W" H 7200 1900 60  0001 L CNN "Description"
+F 7 "CUI Inc." H 7200 2000 60  0001 L CNN "Manufacturer"
 	1    7000 900 
 	1    0    0    -1  
 $EndComp
@@ -681,7 +718,12 @@ P 5150 1050
 F 0 "J8" H 5150 850 50  0000 C CNN
 F 1 "VInput" H 5150 1150 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" H 5150 1050 50  0001 C CNN
-F 3 "~" H 5150 1050 50  0001 C CNN
+F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html" H 5150 1050 50  0001 C CNN
+F 4 "Phoenix Contact" H 5150 1050 50  0001 C CNN "Manufacturer"
+F 5 "277-1247-ND" H 5150 1050 50  0001 C CNN "digikey_pn"
+F 6 "3041440 " H 5150 1050 50  0001 C CNN "farnell_pn"
+F 7 "651-1729128" H 5150 1050 50  0001 C CNN "mouser_pn"
+F 8 "1729128" H 5150 1050 50  0001 C CNN "mpn"
 	1    5150 1050
 	-1   0    0    1   
 $EndComp
@@ -729,7 +771,11 @@ P 6600 7400
 F 0 "J12" H 6680 7442 50  0000 L CNN
 F 1 "Temp2" H 6680 7351 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 6600 7400 50  0001 C CNN
-F 3 "~" H 6600 7400 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6600 7400 50  0001 C CNN
+F 4 "JST Sales America Inc." H 6600 7400 50  0001 C CNN "Manufacturer"
+F 5 "455-1720-ND" H 6600 7400 50  0001 C CNN "digikey_pn"
+F 6 "S3B-PH-K-S" H 6600 7400 50  0001 C CNN "mpn"
+F 7 "9491910" H 6600 7400 50  0001 C CNN "farnell_pn"
 	1    6600 7400
 	1    0    0    -1  
 $EndComp
@@ -740,7 +786,11 @@ P 5950 7400
 F 0 "J9" H 6030 7442 50  0000 L CNN
 F 1 "Temp1" H 6030 7351 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 5950 7400 50  0001 C CNN
-F 3 "~" H 5950 7400 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5950 7400 50  0001 C CNN
+F 4 "JST Sales America Inc." H 5950 7400 50  0001 C CNN "Manufacturer"
+F 5 "455-1720-ND" H 5950 7400 50  0001 C CNN "digikey_pn"
+F 6 "S3B-PH-K-S" H 5950 7400 50  0001 C CNN "mpn"
+F 7 "9491910" H 5950 7400 50  0001 C CNN "farnell_pn"
 	1    5950 7400
 	1    0    0    -1  
 $EndComp
@@ -882,15 +932,10 @@ F 0 "U4" H 7000 1781 60  0000 C CNN
 F 1 "V7803-1000" H 7000 1887 60  0000 C CNN
 F 2 "digikey-footprints:3-SIP_Module_V7803-1000" H 7200 1700 60  0001 L CNN
 F 3 "https://www.cui.com/product/resource/digikeypdf/v78xx-1000.pdf" H 7200 1800 60  0001 L CNN
-F 4 "102-1714-ND" H 7200 1900 60  0001 L CNN "Digi-Key_PN"
-F 5 "V7803-1000" H 7200 2000 60  0001 L CNN "MPN"
-F 6 "Power Supplies - Board Mount" H 7200 2100 60  0001 L CNN "Category"
-F 7 "DC DC Converters" H 7200 2200 60  0001 L CNN "Family"
-F 8 "https://www.cui.com/product/resource/digikeypdf/v78xx-1000.pdf" H 7200 2300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cui-inc/V7803-1000/102-1714-ND/1828607" H 7200 2400 60  0001 L CNN "DK_Detail_Page"
-F 10 "DC DC CONVERTER 3.3V 3.3W" H 7200 2500 60  0001 L CNN "Description"
-F 11 "CUI Inc." H 7200 2600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7200 2700 60  0001 L CNN "Status"
+F 4 "102-1714-ND" H 7200 1900 60  0001 L CNN "digikey_pn"
+F 5 "V7803-1000" H 7200 2000 60  0001 L CNN "mpn"
+F 6 "DC DC CONVERTER 3.3V 3.3W" H 7200 2500 60  0001 L CNN "Description"
+F 7 "CUI Inc." H 7200 2600 60  0001 L CNN "Manufacturer"
 	1    7000 1500
 	1    0    0    1   
 $EndComp
@@ -1010,7 +1055,11 @@ P 4600 7300
 F 0 "J6" H 4680 7342 50  0000 L CNN
 F 1 "Pressure" H 4680 7251 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 4600 7300 50  0001 C CNN
-F 3 "~" H 4600 7300 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4600 7300 50  0001 C CNN
+F 4 "JST Sales America Inc." H 4600 7300 50  0001 C CNN "Manufacturer"
+F 5 "455-1720-ND" H 4600 7300 50  0001 C CNN "digikey_pn"
+F 6 "S3B-PH-K-S" H 4600 7300 50  0001 C CNN "mpn"
+F 7 "9491910" H 4600 7300 50  0001 C CNN "farnell_pn"
 	1    4600 7300
 	1    0    0    -1  
 $EndComp
@@ -1078,12 +1127,12 @@ F 0 "IC1" H 4650 7465 50  0000 C CNN
 F 1 "LMP7715MF" H 4650 7374 50  0000 C CNN
 F 2 "SamacSys_Parts:SOT95P280X145-5N" H 5100 7300 50  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lmp7715.pdf?ts=1606760920352&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FsearchTerm%253DLMP7715" H 5100 7200 50  0001 L CNN
-F 4 "CMOS Input Amplifiers" H 5100 7100 50  0001 L CNN "Description"
-F 5 "1.45" H 5100 7000 50  0001 L CNN "Height"
-F 6 "926-LMP7715MF" H 5100 6900 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMP7715MF?qs=7lkVKPoqpbbL8PvHAxP00w%3D%3D" H 5100 6800 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 5100 6700 50  0001 L CNN "Manufacturer_Name"
-F 9 "LMP7715MF" H 5100 6600 50  0001 L CNN "Manufacturer_Part_Number"
+F 4 "General Purpose Amplifier 1 Circuit Rail-to-Rail" H 5100 7100 50  0001 L CNN "Description"
+F 5 "926-LMP7715MF" H 5100 6900 50  0001 L CNN "mouser_pn"
+F 6 "Texas Instruments" H 4050 7200 50  0001 C CNN "Manufacturer"
+F 7 "LMP7715MF" H 4050 7200 50  0001 C CNN "mpn"
+F 8 "LMP7715MF/NOPBCT-ND" H 4050 7200 50  0001 C CNN "digikey_pn"
+F 9 "3117215" H 4050 7200 50  0001 C CNN "farnell_pn"
 	1    4050 7200
 	-1   0    0    -1  
 $EndComp
@@ -1176,7 +1225,11 @@ P 1400 5450
 F 0 "J1" H 1550 5850 50  0000 R CNN
 F 1 "Probes" H 1550 5750 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 1400 5450 50  0001 C CNN
-F 3 "~" H 1400 5450 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1400 5450 50  0001 C CNN
+F 4 "JST Sales America Inc." H 1400 5450 50  0001 C CNN "Manufacturer"
+F 5 "455-1708-ND" H 1400 5450 50  0001 C CNN "digikey_pn"
+F 6 "9492453" H 1400 5450 50  0001 C CNN "farnell_pn"
+F 7 "B6B-PH-K-S" H 1400 5450 50  0001 C CNN "mpn"
 	1    1400 5450
 	-1   0    0    -1  
 $EndComp
@@ -1329,7 +1382,11 @@ P 5350 6800
 F 0 "J7" H 5322 6682 50  0000 R CNN
 F 1 "Acid Level" H 5450 6900 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 5350 6800 50  0001 C CNN
-F 3 "~" H 5350 6800 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5350 6800 50  0001 C CNN
+F 4 "JST Sales America Inc." H 5350 6800 50  0001 C CNN "Manufacturer"
+F 5 "9491902" H 5350 6800 50  0001 C CNN "farnell_pn"
+F 6 "S2B-PH-K-S" H 5350 6800 50  0001 C CNN "mpn"
+F 7 "455-1719-ND" H 5350 6800 50  0001 C CNN "digikey_pn"
 	1    5350 6800
 	-1   0    0    1   
 $EndComp
@@ -1340,7 +1397,11 @@ P 6200 6800
 F 0 "J10" H 6172 6682 50  0000 R CNN
 F 1 "Chlorine Level" H 6300 6900 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6200 6800 50  0001 C CNN
-F 3 "~" H 6200 6800 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6200 6800 50  0001 C CNN
+F 4 "JST Sales America Inc." H 6200 6800 50  0001 C CNN "Manufacturer"
+F 5 "9491902" H 6200 6800 50  0001 C CNN "farnell_pn"
+F 6 "S2B-PH-K-S" H 6200 6800 50  0001 C CNN "mpn"
+F 7 "455-1719-ND" H 6200 6800 50  0001 C CNN "digikey_pn"
 	1    6200 6800
 	-1   0    0    1   
 $EndComp
@@ -1666,7 +1727,11 @@ P 4800 5950
 F 0 "J19" H 4772 5882 50  0000 R CNN
 F 1 "Flood sensor" H 5100 6150 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 4800 5950 50  0001 C CNN
-F 3 "~" H 4800 5950 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4800 5950 50  0001 C CNN
+F 4 "JST Sales America Inc." H 4800 5950 50  0001 C CNN "Manufacturer"
+F 5 "455-1720-ND" H 4800 5950 50  0001 C CNN "digikey_pn"
+F 6 "S3B-PH-K-S" H 4800 5950 50  0001 C CNN "mpn"
+F 7 "9491910" H 4800 5950 50  0001 C CNN "farnell_pn"
 	1    4800 5950
 	-1   0    0    1   
 $EndComp
@@ -1844,9 +1909,12 @@ P 10150 1800
 F 0 "C14" V 10379 1800 50  0000 C CNN
 F 1 "0.1 uF" V 10288 1800 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 10150 1800 50  0001 C CNN
-F 3 "~" H 10150 1800 50  0001 C CNN
-F 4 "Vishay K104K15X7RF5TL2" V 10150 1800 50  0001 C CNN "manf"
-F 5 "BC1084CT-ND" V 10150 1800 50  0001 C CNN "digikey"
+F 3 "http://www.farnell.com/datasheets/2608733.pdf" H 10150 1800 50  0001 C CNN
+F 4 "Vishay" H 10150 1800 50  0001 C CNN "Manufacturer"
+F 5 "BC1084CT-ND" H 10150 1800 50  0001 C CNN "digikey_pn"
+F 6 "K104K15X7RF5TL2" H 10150 1800 50  0001 C CNN "mpn"
+F 7 "2860097" H 10150 1800 50  0001 C CNN "farnell_pn"
+F 8 "594-K104K15X7RF5TL2" H 10150 1800 50  0001 C CNN "mouser_pn"
 	1    10150 1800
 	0    -1   -1   0   
 $EndComp
@@ -1857,7 +1925,11 @@ P 5600 900
 F 0 "F2" H 5600 807 50  0000 C CNN
 F 1 "Fuse_Small" H 5600 716 50  0001 C CNN
 F 2 "SamacSys_Parts:696101000002" H 5600 900 50  0001 C CNN
-F 3 "~" H 5600 900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/696101000002.pdf" H 5600 900 50  0001 C CNN
+F 4 "Würth Elektronik" H 5600 900 50  0001 C CNN "Manufacturer"
+F 5 "732-11370-ND" H 5600 900 50  0001 C CNN "digikey_pn"
+F 6 "2471678" H 5600 900 50  0001 C CNN "farnell_pn"
+F 7 "710-696101000002" H 5600 900 50  0001 C CNN "mouser_pn"
 	1    5600 900 
 	1    0    0    -1  
 $EndComp
@@ -1946,7 +2018,12 @@ P 1300 6900
 F 0 "J2" H 1350 7417 50  0000 C CNN
 F 1 "Display" H 1350 7326 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x07_P2.54mm_Latch_Horizontal" H 1300 6900 50  0001 C CNN
-F 3 "~" H 1300 6900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1740295.pdf" H 1300 6900 50  0001 C CNN
+F 4 "3M" H 1300 6900 50  0001 C CNN "Manufacturer"
+F 5 "MHR14N-ND" H 1300 6900 50  0001 C CNN "digikey_pn"
+F 6 "9838430" H 1300 6900 50  0001 C CNN "farnell_pn"
+F 7 "517-N3314-5302RB" H 1300 6900 50  0001 C CNN "mouser_pn"
+F 8 "N3314-5302RB" H 1300 6900 50  0001 C CNN "mpn"
 	1    1300 6900
 	1    0    0    -1  
 $EndComp
@@ -1960,7 +2037,7 @@ P 3050 5700
 F 0 "J3" H 3100 6017 50  0000 C CNN
 F 1 "ESP32" H 3100 5926 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 3050 5700 50  0001 C CNN
-F 3 "~" H 3050 5700 50  0001 C CNN
+F 3 "" H 3050 5700 50  0001 C CNN
 	1    3050 5700
 	1    0    0    -1  
 $EndComp
@@ -2037,7 +2114,11 @@ P 6250 2500
 F 0 "J20" H 6000 2200 50  0000 L CNN
 F 1 "EXT_I2C" H 5800 2100 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 6250 2500 50  0001 C CNN
-F 3 "~" H 6250 2500 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6250 2500 50  0001 C CNN
+F 4 "JST Sales America Inc." H 6250 2500 50  0001 C CNN "Manufacturer"
+F 5 "455-1707-ND" H 6250 2500 50  0001 C CNN "digikey_pn"
+F 6 "9492445" H 6250 2500 50  0001 C CNN "farnell_pn"
+F 7 "B5B-PH-K-S" H 6250 2500 50  0001 C CNN "mpn"
 	1    6250 2500
 	1    0    0    -1  
 $EndComp
@@ -2048,7 +2129,11 @@ P 4700 3500
 F 0 "J5" H 4618 3167 50  0000 C CNN
 F 1 "EXT_1" H 4618 3076 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 4700 3500 50  0001 C CNN
-F 3 "~" H 4700 3500 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4700 3500 50  0001 C CNN
+F 4 "JST Sales America Inc." H 4700 3500 50  0001 C CNN "Manufacturer"
+F 5 "455-1707-ND" H 4700 3500 50  0001 C CNN "digikey_pn"
+F 6 "9492445" H 4700 3500 50  0001 C CNN "farnell_pn"
+F 7 "B5B-PH-K-S" H 4700 3500 50  0001 C CNN "mpn"
 	1    4700 3500
 	1    0    0    -1  
 $EndComp
@@ -2059,7 +2144,11 @@ P 6250 3500
 F 0 "J21" H 5950 3200 50  0000 L CNN
 F 1 "EXT_UART" H 5750 3100 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 6250 3500 50  0001 C CNN
-F 3 "~" H 6250 3500 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6250 3500 50  0001 C CNN
+F 4 "JST Sales America Inc." H 6250 3500 50  0001 C CNN "Manufacturer"
+F 5 "455-1707-ND" H 6250 3500 50  0001 C CNN "digikey_pn"
+F 6 "9492445" H 6250 3500 50  0001 C CNN "farnell_pn"
+F 7 "B5B-PH-K-S" H 6250 3500 50  0001 C CNN "mpn"
 	1    6250 3500
 	1    0    0    -1  
 $EndComp
@@ -2070,7 +2159,11 @@ P 5500 3400
 F 0 "J11" H 5300 3050 50  0000 C CNN
 F 1 "EXT_2" H 5300 2950 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 5500 3400 50  0001 C CNN
-F 3 "~" H 5500 3400 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5500 3400 50  0001 C CNN
+F 4 "JST Sales America Inc." H 5500 3400 50  0001 C CNN "Manufacturer"
+F 5 "9492437" H 5500 3400 50  0001 C CNN "farnell_pn"
+F 6 "B4B-PH-K-S" H 5500 3400 50  0001 C CNN "mpn"
+F 7 "455-1706-ND" H 5500 3400 50  0001 C CNN "digikey_pn"
 	1    5500 3400
 	1    0    0    -1  
 $EndComp
@@ -2081,7 +2174,11 @@ P 4700 2600
 F 0 "J4" H 4450 2200 50  0000 L CNN
 F 1 "EXT_SPI" H 4200 2100 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical" H 4700 2600 50  0001 C CNN
-F 3 "~" H 4700 2600 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4700 2600 50  0001 C CNN
+F 4 "JST Sales America Inc." H 4700 2600 50  0001 C CNN "Manufacturer"
+F 5 "9491864" H 4700 2600 50  0001 C CNN "farnell_pn"
+F 6 "B7B-PH-K-S" H 4700 2600 50  0001 C CNN "mpn"
+F 7 "455-1709-ND" H 4700 2600 50  0001 C CNN "digikey_pn"
 	1    4700 2600
 	1    0    0    -1  
 $EndComp
@@ -2094,9 +2191,12 @@ P 2050 4600
 F 0 "J22" H 2050 4330 50  0000 C CNN
 F 1 "1775485-2" H 2100 4800 50  0000 C CNN
 F 2 "snapeda:TE_1775485-2" H 2050 4600 50  0001 L BNN
-F 3 "" H 2050 4600 50  0001 L BNN
-F 4 "Compliant" H 2050 4600 50  0001 L BNN "EU_RoHS_Compliance"
-F 5 "1775485-2" H 2050 4600 50  0001 L BNN "Comment"
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1775485&DocType=Customer+Drawing&DocLang=English" H 2050 4600 50  0001 L BNN
+F 4 "TE Connectivity AMP Connectors" H 2050 4600 50  0001 C CNN "Manufacturer"
+F 5 "A135230-ND" H 2050 4600 50  0001 C CNN "digikey_pn"
+F 6 "3164752" H 2050 4600 50  0001 C CNN "farnell_pn"
+F 7 "571-1775485-2" H 2050 4600 50  0001 C CNN "mouser_pn"
+F 8 "1775485-2" H 2050 4600 50  0001 C CNN "mpn"
 	1    2050 4600
 	-1   0    0    1   
 $EndComp
