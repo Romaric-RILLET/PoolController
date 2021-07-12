@@ -639,7 +639,7 @@ F 3 "https://www.cui.com/product/resource/digikeypdf/v78xx-1000.pdf" H 7200 1200
 F 4 "102-1715-ND" H 7200 1300 60  0001 L CNN "digikey_pn"
 F 5 "V7805-1000" H 7200 1400 60  0001 L CNN "mpn"
 F 6 "DC DC CONVERTER 5V 5W" H 7200 1900 60  0001 L CNN "Description"
-F 7 "CUI Inc." H 7200 2000 60  0001 L CNN "Manufacturer"
+F 7 "CUI Inc. " H 7200 2000 60  0001 L CNN "Manufacturer"
 	1    7000 900 
 	1    0    0    -1  
 $EndComp
