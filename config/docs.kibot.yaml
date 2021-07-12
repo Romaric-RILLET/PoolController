@@ -1,0 +1,79 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: true
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+
+outputs:
+  - name: 'print board documentation'
+    comment: "Print board (PDF)"
+    type: pdf_pcb_print
+    layers: 
+      - Edge.Cuts
+      - Cmts.User
+      - F.Fab
+    dir: docs
+    options:
+      output: '%f-documentation.%x' #[string='%f-%i%v.%x'] filename for the output PDF (%i=layers, %x=pdf). Affected by global options.
+      plot_sheet_reference: true # [boolean=true] include the title-block.
+
+  - name: 'print schema'
+    comment: "Print schematic (PDF)"
+    type: pdf_sch_print
+    dir: docs
+    options:
+      output: '%f-%i.%x' #[string='%f-%i%v.%x'] filename for the output PDF (%i=schematic %x=pdf). Affected by global options.
+      
+  - name: 'https://github.com/openscopeproject/InteractiveHtmlBom'
+    comment: 'ibom.html'
+    type: 'ibom'
+    dir: 'docs/bom'
+    options:
+      # [string='Sourced,Placed'] Comma separated list of checkbox columns
+      checkboxes: 'Sourced,Placed'
+      # [boolean=false] Default to dark mode
+      dark_mode: false
+      # [string=''] Comma separated list of extra fields to pull from netlist or xml file
+      # extra_fields: 'MPN'
+      # [boolean=false] Hide footprint pads by default
+      hide_pads: false
+      # [boolean=false] Hide silkscreen by default
+      hide_silkscreen: false
+      # [boolean=false] Highlight pin1 by default
+      highlight_pin1: true
+      # [boolean=false] Include netlist information in output.
+      include_nets: true
+      # [boolean=false] Include track/zone information in output. F.Cu and B.Cu layers only
+      include_tracks: true
+      # [string='FB'] [F,FB,B] Default layer view
+      layer_view: 'FB'
+      # [string='ibom'] Output file name format supports substitutions:
+      # %f : original pcb file name without extension.
+      # %p : pcb/project title from pcb metadata.
+      # %c : company from pcb metadata.
+      # %r : revision from pcb metadata.
+      # %d : pcb date from metadata if available, file modification date otherwise.
+      # %D : bom generation date.
+      # %T : bom generation time.
+      # Extension .html will be added automatically.
+      # Note that this name is used only when output is ''
+      name_format: 'ibom'
+      # [string=''] Path to netlist or xml file
+      netlist_file: ''
+      # [boolean=false] Do not blacklist virtual components.
+      # IBoM option, avoid using in conjunction with KiBot variants/filters
+      no_blacklist_virtual: false
+      # [boolean=false] Do not redraw pcb on drag by default
+      no_redraw_on_drag: false
+      # [boolean=false] Normalize extra field name case. E.g. 'MPN' and 'mpn' will be considered the same field
+      normalize_field_case: true
+      # [string='%f-%i%v.%x'] Filename for the output, use '' to use the IBoM filename (%i=ibom, %x=html). Affected by global options
+      output: '%f-%i.%x'
+      # [boolean=false] Show fabrication layer by default
+      show_fabrication: false
+      # [string='C,R,L,D,U,Y,X,F,SW,A,~,HS,CNN,J,P,NT,MH'] Default sort order for components. Must contain '~' once
+      sort_order: 'C,R,L,D,U,Y,X,F,SW,A,~,HS,CNN,J,P,NT,MH'
+ 
