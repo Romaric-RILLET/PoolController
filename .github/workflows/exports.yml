@@ -22,9 +22,9 @@ jobs:
       # optional - prefix to output defined in config
         dir: docs
       # optional - schematic file
-        schema: '*.sch'
+        schema: 'Controller/Controller.sch'
       # optional - PCB design file
-        board: '*.kicad_pcb'
+        board: 'Controller/Controller.kicad_pcb'
       # optional - verbose output info
         verbose: 1
     - uses: actions/upload-artifact@v2
