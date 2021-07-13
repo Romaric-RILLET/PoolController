@@ -5,6 +5,7 @@ on:
     paths:
     - '**.sch'
     - '**.kicad_pcb'
+    - '**.yml'
   pull_request:
     paths:
       - '**.sch'
