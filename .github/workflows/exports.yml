@@ -6,6 +6,7 @@ on:
     - '**.sch'
     - '**.kicad_pcb'
     - '**.yml'
+    - '**.yaml'
   pull_request:
     paths:
       - '**.sch'
@@ -20,7 +21,7 @@ jobs:
     - name: exports
       uses: nerdyscout/kicad-exports@v2.3
       with:
-        config: config/config.kibot.yml
+        config: config/config.kibot.yaml
         dir: docs
         schema: 'Controller/Controller.sch'
         board: 'Controller/Controller.kicad_pcb'
