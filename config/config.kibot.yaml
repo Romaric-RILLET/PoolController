@@ -11,11 +11,11 @@ outputs:
   - name: 'print board documentation'
     comment: "Print board (PDF)"
     type: pdf_pcb_print
-    layers: 
-      - Edge.Cuts
-      - Cmts.User
-      - F.Fab
     dir: docs
+    layers:
+      - 'copper'
+      - 'Edge.Cuts'
+      - 'F.Fab'
     options:
       output: '%f-documentation.%x' #[string='%f-%i%v.%x'] filename for the output PDF (%i=layers, %x=pdf). Affected by global options.
       plot_sheet_reference: true # [boolean=true] include the title-block.
@@ -24,10 +24,6 @@ outputs:
     comment: "Print schematic (PDF)"
     type: pdf_sch_print
     dir: docs
-    layers:
-      - 'copper'
-      - 'Edge.Cuts'
-      - 'F.Fab'
     options:
       output: '%f-%i.%x' #[string='%f-%i%v.%x'] filename for the output PDF (%i=schematic %x=pdf). Affected by global options.
 
