@@ -24,13 +24,17 @@ outputs:
     comment: "Print schematic (PDF)"
     type: pdf_sch_print
     dir: docs
+    layers:
+      - 'copper'
+      - 'Edge.Cuts'
+      - 'F.Fab'
     options:
       output: '%f-%i.%x' #[string='%f-%i%v.%x'] filename for the output PDF (%i=schematic %x=pdf). Affected by global options.
-      
+
   - name: 'https://github.com/openscopeproject/InteractiveHtmlBom'
     comment: 'ibom.html'
     type: 'ibom'
-    dir: 'docs/bom'
+    dir: 'docs'
     options:
       # [string='Sourced,Placed'] Comma separated list of checkbox columns
       checkboxes: 'Sourced,Placed'

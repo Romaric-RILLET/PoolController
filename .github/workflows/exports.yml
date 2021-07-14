@@ -12,24 +12,24 @@ on:
       - '**.kicad_pcb'
 
 jobs:
-  example:
+  exports:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: nerdyscout/kicad-exports@v2.3
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: exports
+      uses: nerdyscout/kicad-exports@v2.3
       with:
-      # Required - kibot config file
-        config: config/docs.kibot.yaml
-      # optional - prefix to output defined in config
+        config: config/config.kibot.yaml
         dir: docs
-      # optional - schematic file
         schema: 'Controller/Controller.sch'
-      # optional - PCB design file
         board: 'Controller/Controller.kicad_pcb'
-      # optional - verbose output info
         verbose: 1
-    - uses: actions/upload-artifact@v2
-      with:
-        name: docs
-        path: docs
+    - name: push changes to remote
+      run: |
+         git config --global user.name "Romaric-RILLET"
+         git config --global user.email "Romaric-RILLET@users.noreply.github.com"      
+         git add docs/*.pdf docs/*ibom.html
+         git commit -m "github action"
+         git push
 
