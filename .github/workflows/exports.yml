@@ -20,7 +20,7 @@ jobs:
     - name: exports
       uses: nerdyscout/kicad-exports@v2.3
       with:
-        config: config/config.kibot.yaml
+        config: config/config.kibot.yml
         dir: docs
         schema: 'Controller/Controller.sch'
         board: 'Controller/Controller.kicad_pcb'
