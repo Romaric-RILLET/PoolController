@@ -17,7 +17,7 @@ outputs:
       - 'Edge.Cuts'
       - 'F.Fab'
     options:
-      output: '%f-documentation.%x' #[string='%f-%i%v.%x'] filename for the output PDF (%i=layers, %x=pdf). Affected by global options.
+      output: '%f-board.%x' #[string='%f-%i%v.%x'] filename for the output PDF (%i=layers, %x=pdf). Affected by global options.
       plot_sheet_reference: true # [boolean=true] include the title-block.
 
   - name: 'print schema'
