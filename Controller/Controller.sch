@@ -100,7 +100,7 @@ F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html"
 F 4 "277-1247-ND" H 10450 2900 50  0001 C CNN "digikey_pn"
 F 5 "Phoenix Contact" H 10450 2900 50  0001 C CNN "Manufacturer"
 F 6 "1729128" H 10450 2900 50  0001 C CNN "mpn"
-F 7 "3041440 " H 10450 2900 50  0001 C CNN "farnell_pn"
+F 7 "3041440" H 10450 2900 50  0001 C CNN "farnell_pn"
 F 8 "651-1729128" H 10450 2900 50  0001 C CNN "mouser_pn"
 	1    10450 2900
 	1    0    0    1   
@@ -133,7 +133,7 @@ F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html"
 F 4 "277-1247-ND" H 10450 3650 50  0001 C CNN "digikey_pn"
 F 5 "Phoenix Contact" H 10450 3650 50  0001 C CNN "Manufacturer"
 F 6 "1729128" H 10450 3650 50  0001 C CNN "mpn"
-F 7 "3041440 " H 10450 3650 50  0001 C CNN "farnell_pn"
+F 7 "3041440" H 10450 3650 50  0001 C CNN "farnell_pn"
 F 8 "651-1729128" H 10450 3650 50  0001 C CNN "mouser_pn"
 	1    10450 3650
 	1    0    0    1   
@@ -166,7 +166,7 @@ F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html"
 F 4 "277-1247-ND" H 10450 4300 50  0001 C CNN "digikey_pn"
 F 5 "Phoenix Contact" H 10450 4300 50  0001 C CNN "Manufacturer"
 F 6 "1729128" H 10450 4300 50  0001 C CNN "mpn"
-F 7 "3041440 " H 10450 4300 50  0001 C CNN "farnell_pn"
+F 7 "3041440" H 10450 4300 50  0001 C CNN "farnell_pn"
 F 8 "651-1729128" H 10450 4300 50  0001 C CNN "mouser_pn"
 	1    10450 4300
 	1    0    0    1   
@@ -199,7 +199,7 @@ F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html"
 F 4 "277-1247-ND" H 10450 5050 50  0001 C CNN "digikey_pn"
 F 5 "Phoenix Contact" H 10450 5050 50  0001 C CNN "Manufacturer"
 F 6 "1729128" H 10450 5050 50  0001 C CNN "mpn"
-F 7 "3041440 " H 10450 5050 50  0001 C CNN "farnell_pn"
+F 7 "3041440" H 10450 5050 50  0001 C CNN "farnell_pn"
 F 8 "651-1729128" H 10450 5050 50  0001 C CNN "mouser_pn"
 	1    10450 5050
 	1    0    0    1   
@@ -232,7 +232,7 @@ F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html"
 F 4 "277-1247-ND" H 10450 5800 50  0001 C CNN "digikey_pn"
 F 5 "Phoenix Contact" H 10450 5800 50  0001 C CNN "Manufacturer"
 F 6 "1729128" H 10450 5800 50  0001 C CNN "mpn"
-F 7 "3041440 " H 10450 5800 50  0001 C CNN "farnell_pn"
+F 7 "3041440" H 10450 5800 50  0001 C CNN "farnell_pn"
 F 8 "651-1729128" H 10450 5800 50  0001 C CNN "mouser_pn"
 	1    10450 5800
 	1    0    0    1   
@@ -639,7 +639,7 @@ F 3 "https://www.cui.com/product/resource/digikeypdf/v78xx-1000.pdf" H 7200 1200
 F 4 "102-1715-ND" H 7200 1300 60  0001 L CNN "digikey_pn"
 F 5 "V7805-1000" H 7200 1400 60  0001 L CNN "mpn"
 F 6 "DC DC CONVERTER 5V 5W" H 7200 1900 60  0001 L CNN "Description"
-F 7 "CUI Inc. " H 7200 2000 60  0001 L CNN "Manufacturer"
+F 7 "CUI Inc." H 7200 2000 60  0001 L CNN "Manufacturer"
 	1    7000 900 
 	1    0    0    -1  
 $EndComp
@@ -721,7 +721,7 @@ F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Ho
 F 3 "https://www.digikey.fr/htmldatasheets/production/169740/0/0/1/1729128.html" H 5150 1050 50  0001 C CNN
 F 4 "Phoenix Contact" H 5150 1050 50  0001 C CNN "Manufacturer"
 F 5 "277-1247-ND" H 5150 1050 50  0001 C CNN "digikey_pn"
-F 6 "3041440 " H 5150 1050 50  0001 C CNN "farnell_pn"
+F 6 "3041440" H 5150 1050 50  0001 C CNN "farnell_pn"
 F 7 "651-1729128" H 5150 1050 50  0001 C CNN "mouser_pn"
 F 8 "1729128" H 5150 1050 50  0001 C CNN "mpn"
 	1    5150 1050
