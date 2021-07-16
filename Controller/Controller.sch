@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L teensy:Teensy4.1 U1
+L archive:teensy_Teensy4.1 U1
 U 1 1 607358B6
 P 2150 3100
 F 0 "U1" H 2150 5665 50  0000 C CNN
@@ -28,7 +28,7 @@ F 6 "485-4622" H 2150 3100 50  0001 C CNN "mouser_pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:J1B1211CCD J13
+L archive:SamacSys_Parts_J1B1211CCD J13
 U 1 1 6073F9AF
 P 9700 900
 F 0 "J13" H 10150 1165 50  0000 C CNN
@@ -73,7 +73,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 4000 3350 4000
 $Comp
-L ALQ305:ALQ305 K1
+L archive:ALQ305_ALQ305 K1
 U 1 1 607F7F22
 P 9700 2850
 F 0 "K1" H 9700 3217 50  0000 C CNN
@@ -90,7 +90,7 @@ F 9 "2503676" H 9700 2850 50  0001 C CNN "farnell_pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J14
+L archive:Connector_Screw_Terminal_01x02 J14
 U 1 1 607F9859
 P 10450 2900
 F 0 "J14" H 10530 2892 50  0000 L CNN
@@ -106,7 +106,7 @@ F 8 "651-1729128" H 10450 2900 50  0001 C CNN "mouser_pn"
 	1    0    0    1   
 $EndComp
 $Comp
-L ALQ305:ALQ305 K2
+L archive:ALQ305_ALQ305 K2
 U 1 1 607FDB28
 P 9700 3600
 F 0 "K2" H 9700 3967 50  0000 C CNN
@@ -123,7 +123,7 @@ F 9 "2503676" H 9700 3600 50  0001 C CNN "farnell_pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J15
+L archive:Connector_Screw_Terminal_01x02 J15
 U 1 1 607FDB2E
 P 10450 3650
 F 0 "J15" H 10530 3642 50  0000 L CNN
@@ -139,7 +139,7 @@ F 8 "651-1729128" H 10450 3650 50  0001 C CNN "mouser_pn"
 	1    0    0    1   
 $EndComp
 $Comp
-L ALQ305:ALQ305 K3
+L archive:ALQ305_ALQ305 K3
 U 1 1 607FED69
 P 9700 4250
 F 0 "K3" H 9700 4617 50  0000 C CNN
@@ -156,7 +156,7 @@ F 9 "2503676" H 9700 4250 50  0001 C CNN "farnell_pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J16
+L archive:Connector_Screw_Terminal_01x02 J16
 U 1 1 607FED6F
 P 10450 4300
 F 0 "J16" H 10530 4292 50  0000 L CNN
@@ -172,7 +172,7 @@ F 8 "651-1729128" H 10450 4300 50  0001 C CNN "mouser_pn"
 	1    0    0    1   
 $EndComp
 $Comp
-L ALQ305:ALQ305 K4
+L archive:ALQ305_ALQ305 K4
 U 1 1 607FF3F0
 P 9700 5000
 F 0 "K4" H 9700 5367 50  0000 C CNN
@@ -189,7 +189,7 @@ F 9 "2503676" H 9700 5000 50  0001 C CNN "farnell_pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J17
+L archive:Connector_Screw_Terminal_01x02 J17
 U 1 1 607FF3F6
 P 10450 5050
 F 0 "J17" H 10530 5042 50  0000 L CNN
@@ -205,7 +205,7 @@ F 8 "651-1729128" H 10450 5050 50  0001 C CNN "mouser_pn"
 	1    0    0    1   
 $EndComp
 $Comp
-L ALQ305:ALQ305 K5
+L archive:ALQ305_ALQ305 K5
 U 1 1 60800B15
 P 9700 5750
 F 0 "K5" H 9700 6117 50  0000 C CNN
@@ -222,7 +222,7 @@ F 9 "2503676" H 9700 5750 50  0001 C CNN "farnell_pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J18
+L archive:Connector_Screw_Terminal_01x02 J18
 U 1 1 60800B1B
 P 10450 5800
 F 0 "J18" H 10530 5792 50  0000 L CNN
@@ -270,7 +270,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 5850 10250 5800
 $Comp
-L Transistor_Array:ULN2003A U5
+L archive:Transistor_Array_ULN2003A U5
 U 1 1 608082AA
 P 7250 4350
 F 0 "U5" H 7250 5017 50  0000 C CNN
@@ -286,7 +286,7 @@ F 8 "ULN2003ANE4" H 7250 4350 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR045
+L archive:power_+5V #PWR045
 U 1 1 6080A24A
 P 8900 2250
 F 0 "#PWR045" H 8900 2100 50  0001 C CNN
@@ -337,7 +337,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 5850 9300 5850
 $Comp
-L Device:LED D10
+L archive:Device_LED D10
 U 1 1 608185CC
 P 8700 2800
 F 0 "D10" V 8739 2683 50  0000 R CNN
@@ -348,7 +348,7 @@ F 3 "~" H 8700 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R14
+L archive:Device_R_Small R14
 U 1 1 60819C8F
 P 8700 2500
 F 0 "R14" H 8759 2546 50  0000 L CNN
@@ -359,7 +359,7 @@ F 3 "~" H 8700 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C9
+L archive:Device_C C9
 U 1 1 6081A64E
 P 9300 2600
 F 0 "C9" H 9186 2646 50  0000 R CNN
@@ -373,7 +373,7 @@ Connection ~ 8700 2950
 Wire Wire Line
 	8700 2600 8700 2650
 $Comp
-L Device:LED D9
+L archive:Device_LED D9
 U 1 1 60829E4D
 P 8450 2800
 F 0 "D9" V 8489 2683 50  0000 R CNN
@@ -384,7 +384,7 @@ F 3 "~" H 8450 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R13
+L archive:Device_R_Small R13
 U 1 1 60829E53
 P 8450 2500
 F 0 "R13" H 8509 2546 50  0000 L CNN
@@ -397,7 +397,7 @@ $EndComp
 Wire Wire Line
 	8450 2600 8450 2650
 $Comp
-L Device:LED D8
+L archive:Device_LED D8
 U 1 1 6082BACC
 P 8250 2800
 F 0 "D8" V 8289 2683 50  0000 R CNN
@@ -408,7 +408,7 @@ F 3 "~" H 8250 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R12
+L archive:Device_R_Small R12
 U 1 1 6082BAD2
 P 8250 2500
 F 0 "R12" H 8309 2546 50  0000 L CNN
@@ -421,7 +421,7 @@ $EndComp
 Wire Wire Line
 	8250 2600 8250 2650
 $Comp
-L Device:LED D7
+L archive:Device_LED D7
 U 1 1 6082D594
 P 8050 2800
 F 0 "D7" V 8089 2683 50  0000 R CNN
@@ -432,7 +432,7 @@ F 3 "~" H 8050 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R11
+L archive:Device_R_Small R11
 U 1 1 6082D59A
 P 8050 2500
 F 0 "R11" H 8109 2546 50  0000 L CNN
@@ -445,7 +445,7 @@ $EndComp
 Wire Wire Line
 	8050 2600 8050 2650
 $Comp
-L Device:LED D6
+L archive:Device_LED D6
 U 1 1 6082F3A2
 P 7850 2800
 F 0 "D6" V 7889 2683 50  0000 R CNN
@@ -456,7 +456,7 @@ F 3 "~" H 7850 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R10
+L archive:Device_R_Small R10
 U 1 1 6082F3A8
 P 7850 2500
 F 0 "R10" H 7909 2546 50  0000 L CNN
@@ -496,7 +496,7 @@ Wire Wire Line
 	7850 4550 8700 4550
 Connection ~ 9300 2750
 $Comp
-L Device:C C10
+L archive:Device_C C10
 U 1 1 60840620
 P 9300 3350
 F 0 "C10" H 9186 3396 50  0000 R CNN
@@ -507,7 +507,7 @@ F 3 "~" H 9300 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L archive:Device_C C11
 U 1 1 60842848
 P 9300 4000
 F 0 "C11" H 9186 4046 50  0000 R CNN
@@ -518,7 +518,7 @@ F 3 "~" H 9300 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR046
+L archive:power_GND #PWR046
 U 1 1 60848FBB
 P 9300 2450
 F 0 "#PWR046" H 9300 2200 50  0001 C CNN
@@ -529,7 +529,7 @@ F 3 "" H 9300 2450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR047
+L archive:power_GND #PWR047
 U 1 1 6084AAC6
 P 9300 3200
 F 0 "#PWR047" H 9300 2950 50  0001 C CNN
@@ -540,7 +540,7 @@ F 3 "" H 9300 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR048
+L archive:power_GND #PWR048
 U 1 1 6084E53A
 P 9300 3850
 F 0 "#PWR048" H 9300 3600 50  0001 C CNN
@@ -587,7 +587,7 @@ Connection ~ 8700 2250
 Wire Wire Line
 	8700 2250 8900 2250
 $Comp
-L power:GND #PWR041
+L archive:power_GND #PWR041
 U 1 1 608C2105
 P 7250 5000
 F 0 "#PWR041" H 7250 4750 50  0001 C CNN
@@ -603,7 +603,7 @@ Connection ~ 9300 5650
 Wire Wire Line
 	8900 5650 9300 5650
 $Comp
-L power:GND #PWR050
+L archive:power_GND #PWR050
 U 1 1 60852BA0
 P 9300 5350
 F 0 "#PWR050" H 9300 5100 50  0001 C CNN
@@ -614,7 +614,7 @@ F 3 "" H 9300 5350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C13
+L archive:Device_C C13
 U 1 1 60846EBA
 P 9300 5500
 F 0 "C13" H 9186 5546 50  0000 R CNN
@@ -629,7 +629,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 5100 10250 5050
 $Comp
-L dk_DC-DC-Converters:V7805-1000 U3
+L archive:dk_DC-DC-Converters_V7805-1000 U3
 U 1 1 608F4E40
 P 7000 900
 F 0 "U3" H 7000 1287 60  0000 C CNN
@@ -644,7 +644,7 @@ F 7 "CUI Inc." H 7200 2000 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L archive:Device_C C5
 U 1 1 608F66C3
 P 7700 950
 F 0 "C5" H 7815 996 50  0000 L CNN
@@ -656,7 +656,7 @@ F 4 "ceramic" H 7700 950 50  0001 C CNN "type"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L archive:Device_C C7
 U 1 1 608F6FF2
 P 8450 950
 F 0 "C7" H 8565 996 50  0000 L CNN
@@ -667,7 +667,7 @@ F 3 "~" H 8450 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L1
+L archive:Device_L L1
 U 1 1 608F781C
 P 8100 800
 F 0 "L1" V 8290 800 50  0000 C CNN
@@ -678,7 +678,7 @@ F 3 "~" H 8100 800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:CP C3
+L archive:Device_CP C3
 U 1 1 608F8B5F
 P 6250 950
 F 0 "C3" H 6368 996 50  0000 L CNN
@@ -712,7 +712,7 @@ Connection ~ 7700 800
 Wire Wire Line
 	8250 800  8450 800 
 $Comp
-L Connector:Screw_Terminal_01x02 J8
+L archive:Connector_Screw_Terminal_01x02 J8
 U 1 1 60919496
 P 5150 1050
 F 0 "J8" H 5150 850 50  0000 C CNN
@@ -734,7 +734,7 @@ Wire Wire Line
 	5850 1200 6250 1200
 Connection ~ 6250 1200
 $Comp
-L power:GND #PWR043
+L archive:power_GND #PWR043
 U 1 1 60922BF3
 P 8800 1200
 F 0 "#PWR043" H 8800 950 50  0001 C CNN
@@ -745,7 +745,7 @@ F 3 "" H 8800 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR042
+L archive:power_+5V #PWR042
 U 1 1 609235B4
 P 8800 800
 F 0 "#PWR042" H 8800 650 50  0001 C CNN
@@ -765,7 +765,7 @@ Ethernet
 Text Notes 6450 2100 0    50   ~ 0
 relays
 $Comp
-L Connector:Screw_Terminal_01x03 J12
+L archive:Connector_Screw_Terminal_01x03 J12
 U 1 1 6096BC9D
 P 6600 7400
 F 0 "J12" H 6680 7442 50  0000 L CNN
@@ -780,7 +780,7 @@ F 7 "9491910" H 6600 7400 50  0001 C CNN "farnell_pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J9
+L archive:Connector_Screw_Terminal_01x03 J9
 U 1 1 6096FA85
 P 5950 7400
 F 0 "J9" H 6030 7442 50  0000 L CNN
@@ -795,7 +795,7 @@ F 7 "9491910" H 5950 7400 50  0001 C CNN "farnell_pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR037
+L archive:power_GND #PWR037
 U 1 1 6097B891
 P 5500 7500
 F 0 "#PWR037" H 5500 7250 50  0001 C CNN
@@ -806,7 +806,7 @@ F 3 "" H 5500 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR036
+L archive:power_+3.3V #PWR036
 U 1 1 6097C381
 P 5350 7400
 F 0 "#PWR036" H 5350 7250 50  0001 C CNN
@@ -817,7 +817,7 @@ F 3 "" H 5350 7400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R8
+L archive:Device_R_Small R8
 U 1 1 6097D1E5
 P 5500 7300
 F 0 "R8" H 5559 7346 50  0000 L CNN
@@ -903,7 +903,7 @@ TOUCH_SCL
 Text GLabel 3350 1750 2    50   Input ~ 0
 TOUCH_SDA
 $Comp
-L power:GND #PWR01
+L archive:power_GND #PWR01
 U 1 1 60B740E2
 P 950 950
 F 0 "#PWR01" H 950 700 50  0001 C CNN
@@ -914,7 +914,7 @@ F 3 "" H 950 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR020
+L archive:power_GND #PWR020
 U 1 1 60B74D49
 P 3300 2350
 F 0 "#PWR020" H 3300 2100 50  0001 C CNN
@@ -925,7 +925,7 @@ F 3 "" H 3300 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L dk_DC-DC-Converters:V7803-1000 U4
+L archive:dk_DC-DC-Converters_V7803-1000 U4
 U 1 1 60B82D6B
 P 7000 1500
 F 0 "U4" H 7000 1781 60  0000 C CNN
@@ -940,7 +940,7 @@ F 7 "CUI Inc." H 7200 2600 60  0001 L CNN "Manufacturer"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:CP C4
+L archive:Device_CP C4
 U 1 1 60B84C16
 P 6250 1350
 F 0 "C4" H 6368 1396 50  0000 L CNN
@@ -951,7 +951,7 @@ F 3 "~" H 6250 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C6
+L archive:Device_C C6
 U 1 1 60B84FB8
 P 7700 1350
 F 0 "C6" H 7815 1396 50  0000 L CNN
@@ -963,7 +963,7 @@ F 4 "ceramic" H 7700 1350 50  0001 C CNN "type"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L2
+L archive:Device_L L2
 U 1 1 60B85212
 P 8100 1600
 F 0 "L2" V 8290 1600 50  0000 C CNN
@@ -974,7 +974,7 @@ F 3 "~" H 8100 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C8
+L archive:Device_C C8
 U 1 1 60B85645
 P 8450 1350
 F 0 "C8" H 8565 1396 50  0000 L CNN
@@ -1009,7 +1009,7 @@ Connection ~ 6000 800
 Wire Wire Line
 	6000 800  6250 800 
 $Comp
-L power:+3.3V #PWR044
+L archive:power_+3.3V #PWR044
 U 1 1 60C48DDD
 P 8800 1600
 F 0 "#PWR044" H 8800 1450 50  0001 C CNN
@@ -1049,7 +1049,7 @@ Wire Notes Line
 Text Notes 5100 600  0    50   ~ 0
 Power
 $Comp
-L Connector:Screw_Terminal_01x03 J6
+L archive:Connector_Screw_Terminal_01x03 J6
 U 1 1 60D665E5
 P 4600 7300
 F 0 "J6" H 4680 7342 50  0000 L CNN
@@ -1064,7 +1064,7 @@ F 7 "9491910" H 4600 7300 50  0001 C CNN "farnell_pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR031
+L archive:power_+5V #PWR031
 U 1 1 60D724AB
 P 4400 7150
 F 0 "#PWR031" H 4400 7000 50  0001 C CNN
@@ -1075,7 +1075,7 @@ F 3 "" H 4400 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR032
+L archive:power_GND #PWR032
 U 1 1 60D73519
 P 4400 7450
 F 0 "#PWR032" H 4400 7200 50  0001 C CNN
@@ -1096,7 +1096,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 7400 4050 7400
 $Comp
-L power:GND #PWR029
+L archive:power_GND #PWR029
 U 1 1 60DC88F0
 P 4050 7300
 F 0 "#PWR029" H 4050 7050 50  0001 C CNN
@@ -1107,7 +1107,7 @@ F 3 "" H 4050 7300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR010
+L archive:power_+5V #PWR010
 U 1 1 60DDE22B
 P 2750 7300
 F 0 "#PWR010" H 2750 7150 50  0001 C CNN
@@ -1120,7 +1120,7 @@ $EndComp
 Text GLabel 2850 6650 2    50   Input ~ 0
 Pressure
 $Comp
-L SamacSys_Parts:LMP7715MF IC1
+L archive:SamacSys_Parts_LMP7715MF IC1
 U 1 1 60D65853
 P 4050 7200
 F 0 "IC1" H 4650 7465 50  0000 C CNN
@@ -1146,7 +1146,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 6850 4050 7200
 $Comp
-L Device:R_Small R1
+L archive:Device_R_Small R1
 U 1 1 610A5F62
 P 2600 7000
 F 0 "R1" H 2541 6954 50  0000 R CNN
@@ -1157,7 +1157,7 @@ F 3 "~" H 2600 7000 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR09
+L archive:power_GND #PWR09
 U 1 1 60DEBFA4
 P 2700 7550
 F 0 "#PWR09" H 2700 7300 50  0001 C CNN
@@ -1168,7 +1168,7 @@ F 3 "" H 2700 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1
+L archive:Device_C_Small C1
 U 1 1 60E35882
 P 2850 7400
 F 0 "C1" H 2942 7446 50  0000 L CNN
@@ -1204,7 +1204,7 @@ Connection ~ 2600 7200
 Wire Wire Line
 	2600 7200 2600 7250
 $Comp
-L Device:R_Small R2
+L archive:Device_R_Small R2
 U 1 1 60F6CD18
 P 2600 7350
 F 0 "R2" H 2541 7304 50  0000 R CNN
@@ -1219,7 +1219,7 @@ Probe_SDA
 Text GLabel 1050 5600 0    50   Input ~ 0
 Probe_SCL
 $Comp
-L Connector:Conn_01x06_Male J1
+L archive:Connector_Conn_01x06_Male J1
 U 1 1 611716A7
 P 1400 5450
 F 0 "J1" H 1550 5850 50  0000 R CNN
@@ -1248,7 +1248,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 5600 1200 5600
 $Comp
-L power:+5V #PWR04
+L archive:power_+5V #PWR04
 U 1 1 61242E98
 P 1100 5200
 F 0 "#PWR04" H 1100 5050 50  0001 C CNN
@@ -1259,7 +1259,7 @@ F 3 "" H 1100 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR05
+L archive:power_+3.3V #PWR05
 U 1 1 61244155
 P 1100 5300
 F 0 "#PWR05" H 1100 5150 50  0001 C CNN
@@ -1270,7 +1270,7 @@ F 3 "" H 1100 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR06
+L archive:power_GND #PWR06
 U 1 1 612452A2
 P 1100 5400
 F 0 "#PWR06" H 1100 5150 50  0001 C CNN
@@ -1322,7 +1322,7 @@ Wire Wire Line
 	8900 4900 9300 4900
 Connection ~ 9300 4900
 $Comp
-L power:GND #PWR049
+L archive:power_GND #PWR049
 U 1 1 608507D1
 P 9300 4600
 F 0 "#PWR049" H 9300 4350 50  0001 C CNN
@@ -1333,7 +1333,7 @@ F 3 "" H 9300 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C12
+L archive:Device_C C12
 U 1 1 60844A85
 P 9300 4750
 F 0 "C12" H 9186 4796 50  0000 R CNN
@@ -1376,7 +1376,7 @@ EXT_RX
 Text GLabel 950  1850 0    50   Input ~ 0
 EXT_TX
 $Comp
-L Connector:Conn_01x02_Male J7
+L archive:Connector_Conn_01x02_Male J7
 U 1 1 61BBC3A9
 P 5350 6800
 F 0 "J7" H 5322 6682 50  0000 R CNN
@@ -1391,7 +1391,7 @@ F 7 "455-1719-ND" H 5350 6800 50  0001 C CNN "digikey_pn"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J10
+L archive:Connector_Conn_01x02_Male J10
 U 1 1 61BBDB87
 P 6200 6800
 F 0 "J10" H 6172 6682 50  0000 R CNN
@@ -1410,7 +1410,7 @@ ACID_LEVEL
 Text GLabel 6000 6550 2    50   Input ~ 0
 CHLORINE_LEVEL
 $Comp
-L power:GND #PWR035
+L archive:power_GND #PWR035
 U 1 1 61C00386
 P 5150 6800
 F 0 "#PWR035" H 5150 6550 50  0001 C CNN
@@ -1421,7 +1421,7 @@ F 3 "" H 5150 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR039
+L archive:power_GND #PWR039
 U 1 1 61C009F6
 P 6000 6800
 F 0 "#PWR039" H 6000 6550 50  0001 C CNN
@@ -1487,7 +1487,7 @@ EXT_SCK
 Text GLabel 4500 2700 0    50   Input ~ 0
 EXT_CS
 $Comp
-L power:GND #PWR026
+L archive:power_GND #PWR026
 U 1 1 61EBB362
 P 4500 3300
 F 0 "#PWR026" H 4500 3050 50  0001 C CNN
@@ -1498,7 +1498,7 @@ F 3 "" H 4500 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR023
+L archive:power_GND #PWR023
 U 1 1 61EBB810
 P 6050 3300
 F 0 "#PWR023" H 6050 3050 50  0001 C CNN
@@ -1509,7 +1509,7 @@ F 3 "" H 6050 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR017
+L archive:power_+3.3V #PWR017
 U 1 1 61EBB936
 P 5300 3400
 F 0 "#PWR017" H 5300 3250 50  0001 C CNN
@@ -1520,7 +1520,7 @@ F 3 "" H 5300 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR014
+L archive:power_+3.3V #PWR014
 U 1 1 61EBC4BE
 P 4500 3500
 F 0 "#PWR014" H 4500 3350 50  0001 C CNN
@@ -1531,7 +1531,7 @@ F 3 "" H 4500 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR013
+L archive:power_+3.3V #PWR013
 U 1 1 61EBC5E6
 P 6050 2400
 F 0 "#PWR013" H 6050 2250 50  0001 C CNN
@@ -1558,7 +1558,7 @@ EXT_IO3
 Text GLabel 5300 3600 0    50   Input ~ 0
 EXT_IO4
 $Comp
-L power:+5V #PWR012
+L archive:power_+5V #PWR012
 U 1 1 61EEF14E
 P 4500 3400
 F 0 "#PWR012" H 4500 3250 50  0001 C CNN
@@ -1569,7 +1569,7 @@ F 3 "" H 4500 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR011
+L archive:power_+5V #PWR011
 U 1 1 61EEF7D0
 P 6050 3400
 F 0 "#PWR011" H 6050 3250 50  0001 C CNN
@@ -1580,7 +1580,7 @@ F 3 "" H 6050 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR021
+L archive:power_+5V #PWR021
 U 1 1 61EEF971
 P 6050 2500
 F 0 "#PWR021" H 6050 2350 50  0001 C CNN
@@ -1593,7 +1593,7 @@ $EndComp
 Text GLabel 4500 2800 0    50   Input ~ 0
 EXT_MOSI
 $Comp
-L power:+3.3V #PWR016
+L archive:power_+3.3V #PWR016
 U 1 1 61EBC1BB
 P 6050 3500
 F 0 "#PWR016" H 6050 3350 50  0001 C CNN
@@ -1604,7 +1604,7 @@ F 3 "" H 6050 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR022
+L archive:power_GND #PWR022
 U 1 1 6227E5FB
 P 6050 2300
 F 0 "#PWR022" H 6050 2050 50  0001 C CNN
@@ -1721,7 +1721,7 @@ Wire Wire Line
 Text Notes 4100 2150 0    50   ~ 0
 Extension
 $Comp
-L Connector:Conn_01x03_Male J19
+L archive:Connector_Conn_01x03_Male J19
 U 1 1 62EA9501
 P 4800 5950
 F 0 "J19" H 4772 5882 50  0000 R CNN
@@ -1738,7 +1738,7 @@ $EndComp
 Text GLabel 4500 6050 0    50   Input ~ 0
 flood
 $Comp
-L power:+3.3V #PWR028
+L archive:power_+3.3V #PWR028
 U 1 1 62EE608F
 P 4500 5950
 F 0 "#PWR028" H 4500 5800 50  0001 C CNN
@@ -1749,7 +1749,7 @@ F 3 "" H 4500 5950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR051
+L archive:power_GND #PWR051
 U 1 1 62F0469C
 P 4500 5850
 F 0 "#PWR051" H 4500 5600 50  0001 C CNN
@@ -1768,7 +1768,7 @@ Wire Wire Line
 Wire Notes Line
 	5050 5500 5050 7800
 $Comp
-L power:PWR_FLAG #FLG0101
+L archive:power_PWR_FLAG #FLG0101
 U 1 1 62FBF136
 P 5850 800
 F 0 "#FLG0101" H 5850 875 50  0001 C CNN
@@ -1779,7 +1779,7 @@ F 3 "~" H 5850 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
+L archive:power_PWR_FLAG #FLG0102
 U 1 1 62FC15C3
 P 5850 1200
 F 0 "#FLG0102" H 5850 1275 50  0001 C CNN
@@ -1790,7 +1790,7 @@ F 3 "~" H 5850 1200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0103
+L archive:power_PWR_FLAG #FLG0103
 U 1 1 6303CFB2
 P 1850 4450
 F 0 "#FLG0103" H 1850 4525 50  0001 C CNN
@@ -1804,7 +1804,7 @@ Connection ~ 1850 4450
 Wire Wire Line
 	1850 4450 1850 4400
 $Comp
-L power:+5V #PWR018
+L archive:power_+5V #PWR018
 U 1 1 609CE72A
 P 3350 950
 F 0 "#PWR018" H 3350 800 50  0001 C CNN
@@ -1815,7 +1815,7 @@ F 3 "" H 3350 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0101
+L archive:power_GND #PWR0101
 U 1 1 6309BC0B
 P 3300 3600
 F 0 "#PWR0101" H 3300 3350 50  0001 C CNN
@@ -1828,7 +1828,7 @@ $EndComp
 Wire Wire Line
 	3250 3600 3300 3600
 $Comp
-L power:GND #PWR0102
+L archive:power_GND #PWR0102
 U 1 1 630DA049
 P 10850 1850
 F 0 "#PWR0102" H 10850 1600 50  0001 C CNN
@@ -1839,7 +1839,7 @@ F 3 "" H 10850 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0103
+L archive:power_GND #PWR0103
 U 1 1 631356E2
 P 3350 1050
 F 0 "#PWR0103" H 3350 800 50  0001 C CNN
@@ -1852,7 +1852,7 @@ $EndComp
 Wire Wire Line
 	3250 1050 3350 1050
 $Comp
-L power:PWR_FLAG #FLG0104
+L archive:power_PWR_FLAG #FLG0104
 U 1 1 631551CF
 P 8450 800
 F 0 "#FLG0104" H 8450 875 50  0001 C CNN
@@ -1865,7 +1865,7 @@ $EndComp
 Wire Wire Line
 	8450 800  8800 800 
 $Comp
-L power:PWR_FLAG #FLG0105
+L archive:power_PWR_FLAG #FLG0105
 U 1 1 6315625D
 P 8450 1600
 F 0 "#FLG0105" H 8450 1675 50  0001 C CNN
@@ -1876,7 +1876,7 @@ F 3 "~" H 8450 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Polyfuse_Small F1
+L archive:Device_Polyfuse_Small F1
 U 1 1 631B51A4
 P 5600 800
 F 0 "F1" V 5487 800 50  0000 C CNN
@@ -1903,7 +1903,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 1800 10700 1800
 $Comp
-L Device:C_Small C14
+L archive:Device_C_Small C14
 U 1 1 607612B2
 P 10150 1800
 F 0 "C14" V 10379 1800 50  0000 C CNN
@@ -1919,7 +1919,7 @@ F 8 "594-K104K15X7RF5TL2" H 10150 1800 50  0001 C CNN "mouser_pn"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Fuse_Small F2
+L archive:Device_Fuse_Small F2
 U 1 1 60ADC17F
 P 5600 900
 F 0 "F2" H 5600 807 50  0000 C CNN
@@ -1960,7 +1960,7 @@ TOUCH_SCL
 Text GLabel 1600 7000 2    39   Input ~ 0
 LCD_SCLK
 $Comp
-L power:+3.3V #PWR03
+L archive:power_+3.3V #PWR03
 U 1 1 60A18DD5
 P 1600 6700
 F 0 "#PWR03" H 1600 6550 50  0001 C CNN
@@ -1971,7 +1971,7 @@ F 3 "" H 1600 6700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR08
+L archive:power_+5V #PWR08
 U 1 1 60A17E2A
 P 1600 6600
 F 0 "#PWR08" H 1600 6450 50  0001 C CNN
@@ -1982,7 +1982,7 @@ F 3 "" H 1600 6600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR02
+L archive:power_GND #PWR02
 U 1 1 60A16C57
 P 1100 6600
 F 0 "#PWR02" H 1100 6350 50  0001 C CNN
@@ -2012,7 +2012,7 @@ Connection ~ 10700 1000
 NoConn ~ 3250 2650
 NoConn ~ 3250 2550
 $Comp
-L Connector_Generic:Conn_02x07_Odd_Even J2
+L archive:Connector_Generic_Conn_02x07_Odd_Even J2
 U 1 1 60E46C49
 P 1300 6900
 F 0 "J2" H 1350 7417 50  0000 C CNN
@@ -2031,7 +2031,7 @@ Wire Wire Line
 	1100 6700 1100 6600
 Connection ~ 1100 6600
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J3
+L archive:Connector_Generic_Conn_02x03_Odd_Even J3
 U 1 1 60FB73EA
 P 3050 5700
 F 0 "J3" H 3100 6017 50  0000 C CNN
@@ -2042,7 +2042,7 @@ F 3 "" H 3050 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR034
+L archive:power_GND #PWR034
 U 1 1 6144392B
 P 2850 5600
 F 0 "#PWR034" H 2850 5350 50  0001 C CNN
@@ -2053,7 +2053,7 @@ F 3 "" H 2850 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR033
+L archive:power_+3.3V #PWR033
 U 1 1 613D117F
 P 3350 5600
 F 0 "#PWR033" H 3350 5450 50  0001 C CNN
@@ -2064,7 +2064,7 @@ F 3 "" H 3350 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR0104
+L archive:power_+3.3V #PWR0104
 U 1 1 61051B6D
 P 4500 2400
 F 0 "#PWR0104" H 4500 2250 50  0001 C CNN
@@ -2075,7 +2075,7 @@ F 3 "" H 4500 2400 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0105
+L archive:power_+5V #PWR0105
 U 1 1 6105256D
 P 4500 2500
 F 0 "#PWR0105" H 4500 2350 50  0001 C CNN
@@ -2086,7 +2086,7 @@ F 3 "" H 4500 2500 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR0106
+L archive:power_GND #PWR0106
 U 1 1 61052577
 P 4500 2300
 F 0 "#PWR0106" H 4500 2050 50  0001 C CNN
@@ -2097,7 +2097,7 @@ F 3 "" H 4500 2300 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0107
+L archive:power_GND #PWR0107
 U 1 1 610DC70F
 P 5300 3300
 F 0 "#PWR0107" H 5300 3050 50  0001 C CNN
@@ -2108,7 +2108,7 @@ F 3 "" H 5300 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J20
+L archive:Connector_Generic_Conn_01x05 J20
 U 1 1 611175DD
 P 6250 2500
 F 0 "J20" H 6000 2200 50  0000 L CNN
@@ -2123,7 +2123,7 @@ F 7 "B5B-PH-K-S" H 6250 2500 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J5
+L archive:Connector_Generic_Conn_01x05 J5
 U 1 1 61118B5D
 P 4700 3500
 F 0 "J5" H 4618 3167 50  0000 C CNN
@@ -2138,7 +2138,7 @@ F 7 "B5B-PH-K-S" H 4700 3500 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J21
+L archive:Connector_Generic_Conn_01x05 J21
 U 1 1 6111966F
 P 6250 3500
 F 0 "J21" H 5950 3200 50  0000 L CNN
@@ -2153,7 +2153,7 @@ F 7 "B5B-PH-K-S" H 6250 3500 50  0001 C CNN "mpn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J11
+L archive:Connector_Generic_Conn_01x04 J11
 U 1 1 61119DC3
 P 5500 3400
 F 0 "J11" H 5300 3050 50  0000 C CNN
@@ -2168,7 +2168,7 @@ F 7 "455-1706-ND" H 5500 3400 50  0001 C CNN "digikey_pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x07 J4
+L archive:Connector_Generic_Conn_01x07 J4
 U 1 1 6114126B
 P 4700 2600
 F 0 "J4" H 4450 2200 50  0000 L CNN
@@ -2185,7 +2185,7 @@ $EndComp
 NoConn ~ 1050 1650
 NoConn ~ 1050 1550
 $Comp
-L 1775485-2:1775485-2 J22
+L archive:1775485-2_1775485-2 J22
 U 1 1 612E45E4
 P 2050 4600
 F 0 "J22" H 2050 4330 50  0000 C CNN
