@@ -22,11 +22,11 @@ F 1 "ADM3260ARSZ-RL7" H 4050 1274 50  0000 C CNN
 F 2 "SamacSys_Parts:SOP65P780X200-20N" H 4600 1200 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/ADM3260ARSZ-RL7.pdf" H 4600 1100 50  0001 L CNN
 F 4 "Digital Isolators Isolated I2C  & Power" H 4600 1000 50  0001 L CNN "Description"
-F 5 "2" H 4600 900 50  0001 L CNN "Height"
-F 6 "584-ADM3260ARSZ-RL7" H 4600 800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADM3260ARSZ-RL7?qs=hpwIUhX6lWy5rzRvRSiwFQ%3D%3D" H 4600 700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Analog Devices" H 4600 600 50  0001 L CNN "Manufacturer_Name"
-F 9 "ADM3260ARSZ-RL7" H 4600 500 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "Analog Devices" H 4600 600 50  0001 L CNN "Manufacturer"
+F 6 "ADM3260ARSZ-RL7" H 4600 500 50  0001 L CNN "mpn"
+F 7 "584-ADM3260ARSZ-RL7" H 4600 800 50  0001 L CNN "mouser_pn"
+F 8 "ADM3260ARSZ-RL7CT-ND" H 3350 1100 50  0001 C CNN "digikey_pn"
+F 9 "" H 3350 1100 50  0001 C CNN "farnell_pn"
 	1    3350 1100
 	1    0    0    -1  
 $EndComp
@@ -37,7 +37,11 @@ P 650 1300
 F 0 "J1" H 542 775 50  0000 C CNN
 F 1 "Interface" H 542 866 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 650 1300 50  0001 C CNN
-F 3 "~" H 650 1300 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 650 1300 50  0001 C CNN
+F 4 "JST Sales America Inc." H 650 1300 50  0001 C CNN "Manufacturer"
+F 5 "455-1708-ND" H 650 1300 50  0001 C CNN "digikey_pn"
+F 6 "9492453" H 650 1300 50  0001 C CNN "farnell_pn"
+F 7 "B6B-PH-K-S" H 650 1300 50  0001 C CNN "mpn"
 	1    650  1300
 	-1   0    0    -1  
 $EndComp
@@ -387,6 +391,10 @@ F 0 "U2" H 6850 2367 50  0000 C CNN
 F 1 "LP5907MFX-4.5" H 6850 2276 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6850 2350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lp5907.pdf" H 6850 2500 50  0001 C CNN
+F 4 "Texas Instruments" H 6850 2000 50  0001 C CNN "Manufacturer"
+F 5 "296-39064-1-ND" H 6850 2000 50  0001 C CNN "digikey_pn"
+F 6 "3122292" H 6850 2000 50  0001 C CNN "farnell_pn"
+F 7 "595-LP5907MFX-4.5NPB" H 6850 2000 50  0001 C CNN "mouser_pn"
 	1    6850 2000
 	1    0    0    -1  
 $EndComp
@@ -493,11 +501,10 @@ F 1 "REF3440QDBVRQ1" H 2750 4950 50  0000 C CNN
 F 2 "SamacSys_Parts:SOT95P280X145-6N" H 3250 4800 50  0001 L CNN
 F 3 "http://www.ti.com/lit/gpn/REF34-Q1" H 3250 4700 50  0001 L CNN
 F 4 "Automotive low-drift low-power small-footprint series voltage reference" H 3250 4600 50  0001 L CNN "Description"
-F 5 "1.45" H 3250 4500 50  0001 L CNN "Height"
-F 6 "595-REF3440QDBVRQ1" H 3250 4400 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF3440QDBVRQ1?qs=byeeYqUIh0NTJm0mfXcM9Q%3D%3D" H 3250 4300 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 3250 4200 50  0001 L CNN "Manufacturer_Name"
-F 9 "REF3440QDBVRQ1" H 3250 4100 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "Texas Instruments" H 3250 4200 50  0001 L CNN "Manufacturer"
+F 6 "REF3440QDBVRQ1" H 3250 4100 50  0001 L CNN "mpn"
+F 7 "595-REF3440QDBVRQ1" H 3250 4400 50  0001 L CNN "mouser_pn"
+F 8 "296-53237-1-ND" H 2100 4700 50  0001 C CNN "digikey_pn"
 	1    2100 4700
 	1    0    0    1   
 $EndComp
@@ -643,11 +650,10 @@ F 1 "LMP7716MM_NOPB" H 5200 4524 50  0000 C CNN
 F 2 "SamacSys_Parts:SOP65P490X110-8N" H 5650 4450 50  0001 L CNN
 F 3 "http://www.ti.com/lit/gpn/LMP7716" H 5650 4350 50  0001 L CNN
 F 4 "Dual Precision, 17 MHz, Low Noise, CMOS Input Amplifier" H 5650 4250 50  0001 L CNN "Description"
-F 5 "1.1" H 5650 4150 50  0001 L CNN "Height"
-F 6 "926-LMP7716MM/NOPB" H 5650 4050 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMP7716MM-NOPB?qs=7lkVKPoqpbZs%2FD9QVWcbWA%3D%3D" H 5650 3950 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 5650 3850 50  0001 L CNN "Manufacturer_Name"
-F 9 "LMP7716MM/NOPB" H 5650 3750 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "926-LMP7716MM/NOPB" H 5650 4050 50  0001 L CNN "mouser_pn"
+F 6 "Texas Instruments" H 5650 3850 50  0001 L CNN "Manufacturer"
+F 7 "LMP7716MM/NOPB" H 5650 3750 50  0001 L CNN "mpn"
+F 8 "LMP7716MME/NOPBCT-ND" H 4600 4350 50  0001 C CNN "digikey_pn"
 	1    4600 4350
 	1    0    0    -1  
 $EndComp
@@ -821,11 +827,10 @@ F 1 "LMP7721MAX_NOPB" V 3105 6622 50  0000 R CNN
 F 2 "SamacSys_Parts:SOIC127P600X175-8N" H 3600 7150 50  0001 L CNN
 F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flmp7721" H 3600 7050 50  0001 L CNN
 F 4 "Operational Amplifiers - Op Amps 3 Femtoampere Input Bias Current Precision Amplifier 8-SOIC -40 to 125" H 3600 6950 50  0001 L CNN "Description"
-F 5 "1.75" H 3600 6850 50  0001 L CNN "Height"
-F 6 "926-LMP7721MAX/NOPB" H 3600 6750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMP7721MAX-NOPB?qs=7lkVKPoqpbYZQwOlx%252BsPcg%3D%3D" H 3600 6650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 3600 6550 50  0001 L CNN "Manufacturer_Name"
-F 9 "LMP7721MAX/NOPB" H 3600 6450 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "Texas Instruments" H 3600 6550 50  0001 L CNN "Manufacturer"
+F 6 "LMP7721MAX/NOPB" H 3600 6450 50  0001 L CNN "mpn"
+F 7 "926-LMP7721MAX/NOPB" H 3600 6750 50  0001 L CNN "mouser_pn"
+F 8 "LMP7721MAX/NOPB-ND" H 2550 7050 50  0001 C CNN "digikey_pn"
 	1    2550 7050
 	0    -1   -1   0   
 $EndComp
@@ -836,7 +841,13 @@ P 1350 6600
 F 0 "J2" H 1450 6482 50  0000 L CNN
 F 1 "Probe" H 1450 6573 50  0000 L CNN
 F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 1350 6600 50  0001 C CNN
-F 3 " ~" H 1350 6600 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/18/1/C31_5431_10rfx-2452641.pdf" H 1350 6600 50  0001 C CNN
+F 4 "BNC" H 1350 6600 50  0001 C CNN "Description"
+F 5 "Amphenol RF" H 1350 6600 50  0001 C CNN "Manufacturer"
+F 6 "	ARF1690-ND" H 1350 6600 50  0001 C CNN "digikey_pn"
+F 7 "031-5431-10RFX" H 1350 6600 50  0001 C CNN "mpn"
+F 8 "2293737" H 1350 6600 50  0001 C CNN "farnell_pn"
+F 9 "523-31-5431-10RFX" H 1350 6600 50  0001 C CNN "mouser_pn"
 	1    1350 6600
 	-1   0    0    1   
 $EndComp
@@ -1072,6 +1083,10 @@ F 0 "U1" H 5400 6350 50  0000 C CNN
 F 1 "ADS1114IDGS" H 5300 5500 50  0000 C CNN
 F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 5650 5400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" H 5600 5000 50  0001 C CNN
+F 4 "Texas Instruments" H 5650 5900 50  0001 C CNN "Manufacturer"
+F 5 "296-24932-1-ND" H 5650 5900 50  0001 C CNN "digikey_pn"
+F 6 "3004294" H 5650 5900 50  0001 C CNN "farnell_pn"
+F 7 "595-ADS1114IDGST" H 5650 5900 50  0001 C CNN "mouser_pn"
 	1    5650 5900
 	1    0    0    -1  
 $EndComp
@@ -1453,11 +1468,11 @@ F 1 "MAX7321AEE+" H 2650 3174 50  0000 C CNN
 F 2 "snapeda:max7321aee&plus_" H 2400 3000 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/2/MAX7321AEE+.pdf" H 2400 2900 50  0001 L CNN
 F 4 "Maxim MAX7321AEE+, 8-channel 8bit I/O Expander 400kHz, I2C, Serial, 16-Pin QSOP" H 2400 2800 50  0001 L CNN "Description"
-F 5 "1.75" H 2400 2700 50  0001 L CNN "Height"
-F 6 "700-MAX7321AEE" H 2400 2600 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX7321AEE%2b?qs=LHmEVA8xxfYGcvkoPVuHog%3D%3D" H 2400 2500 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Maxim Integrated" H 2400 2400 50  0001 L CNN "Manufacturer_Name"
-F 9 "MAX7321AEE+" H 2400 2300 50  0001 L CNN "Manufacturer_Part_Number"
+F 5 "700-MAX7321AEE" H 2400 2600 50  0001 L CNN "mouser_pn"
+F 6 "Maxim Integrated" H 2400 2400 50  0001 L CNN "Manufacturer"
+F 7 "MAX7321AEE+" H 2400 2300 50  0001 L CNN "mpn"
+F 8 "MAX7321AEE+-ND" H 1450 2900 50  0001 C CNN "digikey_pn"
+F 9 "2516740" H 1450 2900 50  0001 C CNN "farnell_pn"
 	1    1450 2900
 	1    0    0    -1  
 $EndComp
@@ -1701,7 +1716,11 @@ P 1750 1300
 F 0 "J6" H 1642 775 50  0000 C CNN
 F 1 "Interface" H 1642 866 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 1750 1300 50  0001 C CNN
-F 3 "~" H 1750 1300 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1750 1300 50  0001 C CNN
+F 4 "JST Sales America Inc." H 1750 1300 50  0001 C CNN "Manufacturer"
+F 5 "455-1708-ND" H 1750 1300 50  0001 C CNN "digikey_pn"
+F 6 "9492453" H 1750 1300 50  0001 C CNN "farnell_pn"
+F 7 "B6B-PH-K-S" H 1750 1300 50  0001 C CNN "mpn"
 	1    1750 1300
 	1    0    0    -1  
 $EndComp
