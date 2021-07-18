@@ -18,13 +18,21 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v2
-    - name: exports
+    - name: export_controller
       uses: nerdyscout/kicad-exports@v2.3
       with:
         config: config/config.kibot.yaml
         dir: docs
         schema: 'Controller/Controller.sch'
         board: 'Controller/Controller.kicad_pcb'
+        verbose: 1
+    - name: export_probe
+      uses: nerdyscout/kicad-exports@v2.3
+      with:
+        config: config/config.kibot.yaml
+        dir: docs
+        schema: 'Probe/Probe.sch'
+        board: 'Probe/Probe.kicad_pcb'
         verbose: 1
     - name: push changes to remote
       run: |
