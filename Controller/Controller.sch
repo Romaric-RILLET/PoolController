@@ -1716,8 +1716,6 @@ ETH_TX+
 NoConn ~ 10600 1400
 NoConn ~ 10600 1300
 NoConn ~ 2000 4400
-Wire Wire Line
-	1850 4600 1850 4450
 Text Notes 4100 2150 0    50   ~ 0
 Extension
 $Comp
@@ -1789,20 +1787,6 @@ F 3 "~" H 5850 1200 50  0001 C CNN
 	1    5850 1200
 	-1   0    0    1   
 $EndComp
-$Comp
-L archive:power_PWR_FLAG #FLG0103
-U 1 1 6303CFB2
-P 1850 4450
-F 0 "#FLG0103" H 1850 4525 50  0001 C CNN
-F 1 "PWR_FLAG" V 1850 4577 50  0000 L CNN
-F 2 "" H 1850 4450 50  0001 C CNN
-F 3 "~" H 1850 4450 50  0001 C CNN
-	1    1850 4450
-	0    -1   -1   0   
-$EndComp
-Connection ~ 1850 4450
-Wire Wire Line
-	1850 4450 1850 4400
 $Comp
 L archive:power_+5V #PWR018
 U 1 1 609CE72A
@@ -2184,30 +2168,23 @@ F 7 "455-1709-ND" H 4700 2600 50  0001 C CNN "digikey_pn"
 $EndComp
 NoConn ~ 1050 1650
 NoConn ~ 1050 1550
-$Comp
-L archive:1775485-2_1775485-2 J22
-U 1 1 612E45E4
-P 2050 4600
-F 0 "J22" H 2050 4330 50  0000 C CNN
-F 1 "1775485-2" H 2100 4800 50  0000 C CNN
-F 2 "snapeda:TE_1775485-2" H 2050 4600 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1775485&DocType=Customer+Drawing&DocLang=English" H 2050 4600 50  0001 L BNN
-F 4 "TE Connectivity AMP Connectors" H 2050 4600 50  0001 C CNN "Manufacturer"
-F 5 "A135230-ND" H 2050 4600 50  0001 C CNN "digikey_pn"
-F 6 "3164752" H 2050 4600 50  0001 C CNN "farnell_pn"
-F 7 "571-1775485-2" H 2050 4600 50  0001 C CNN "mouser_pn"
-F 8 "1775485-2" H 2050 4600 50  0001 C CNN "mpn"
-	1    2050 4600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2150 4400 2150 4500
-Wire Wire Line
-	2150 4500 2250 4500
-Wire Wire Line
-	2250 4500 2250 4600
 Text GLabel 3350 5700 2    50   Input ~ 0
 ESP_EN
 Text GLabel 3350 5800 2    50   Input ~ 0
 ESP_TX
+$Comp
+L archive:keystone1065_1065 B1
+U 1 1 613271E7
+P 1850 4600
+F 0 "B1" H 2000 4448 60  0000 C CNN
+F 1 "1065" H 2000 4342 60  0000 C CNN
+F 2 "snapeda:1065" H 2000 4240 60  0001 C CNN
+F 3 "" H 1850 4600 60  0000 C CNN
+	1    1850 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4400 2150 4600
+Wire Wire Line
+	1850 4400 1850 4600
 $EndSCHEMATC
