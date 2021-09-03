@@ -1908,7 +1908,7 @@ U 1 1 60ADC17F
 P 5600 900
 F 0 "F2" H 5600 807 50  0000 C CNN
 F 1 "Fuse_Small" H 5600 716 50  0001 C CNN
-F 2 "SamacSys_Parts:696101000002" H 5600 900 50  0001 C CNN
+F 2 "lib_divers:Fuse-PTF75_Stelvio" H 5600 900 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/696101000002.pdf" H 5600 900 50  0001 C CNN
 F 4 "Würth Elektronik" H 5600 900 50  0001 C CNN "Manufacturer"
 F 5 "732-11370-ND" H 5600 900 50  0001 C CNN "digikey_pn"
