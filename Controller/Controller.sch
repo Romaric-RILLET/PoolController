@@ -28,51 +28,6 @@ F 6 "485-4622" H 2150 3100 50  0001 C CNN "mouser_pn"
 	1    0    0    -1  
 $EndComp
 $Comp
-L archive:SamacSys_Parts_J1B1211CCD J13
-U 1 1 6073F9AF
-P 9700 900
-F 0 "J13" H 10150 1165 50  0000 C CNN
-F 1 "J1B1211CCD" H 10150 1074 50  0000 C CNN
-F 2 "SamacSys_Parts:J1B1211CCD" H 10450 1000 50  0001 L CNN
-F 3 "https://www.wiznet.hk/en/index.php?controller=attachment&id_attachment=2" H 10450 900 50  0001 L CNN
-F 4 "SINGLE RJ45 CONNECTOR MODULE WITH 10/100 BASE-TX MAGNETICS AND LEDS" H 10450 800 50  0001 L CNN "Description"
-F 5 "950-J1B1211CCD" H 10450 600 50  0001 L CNN "mouser_pn"
-F 6 "J1B1211CCD" H 10450 300 50  0001 L CNN "mpn"
-F 7 "Wiznet Technology" H 9700 900 50  0001 C CNN "Manufacturer"
-F 8 "1278-1052-ND" H 9700 900 50  0001 C CNN "digikey_pn"
-	1    9700 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9700 900  9500 900 
-Wire Wire Line
-	9700 1000 9650 1000
-Wire Wire Line
-	9700 1100 9500 1100
-Wire Wire Line
-	9700 1200 9500 1200
-Wire Wire Line
-	9700 1300 9650 1300
-Wire Wire Line
-	9650 1300 9650 1000
-Wire Wire Line
-	10600 1000 10700 1000
-Wire Wire Line
-	9700 1400 9500 1400
-Wire Wire Line
-	9650 1300 9650 1800
-Connection ~ 9650 1300
-Wire Wire Line
-	3250 3500 3350 3500
-Wire Wire Line
-	3250 3700 3350 3700
-Wire Wire Line
-	3250 3800 3350 3800
-Wire Wire Line
-	3250 3900 3350 3900
-Wire Wire Line
-	3250 4000 3350 4000
-$Comp
 L archive:ALQ305_ALQ305 K1
 U 1 1 607F7F22
 P 9700 2850
@@ -1693,28 +1648,6 @@ Wire Wire Line
 	3250 2850 3350 2850
 Wire Wire Line
 	3350 2750 3250 2750
-Text GLabel 3350 4000 2    50   Input ~ 0
-ETH_RX+
-Text GLabel 3350 3900 2    50   Input ~ 0
-ETH_LED
-Text GLabel 3350 3800 2    50   Input ~ 0
-ETH_TX-
-Text GLabel 3350 3700 2    50   Input ~ 0
-ETH_TX+
-Text GLabel 3350 3500 2    50   Input ~ 0
-ETH_RX-
-Text GLabel 10800 1100 2    50   Input ~ 0
-ETH_LED
-Text GLabel 9500 1400 0    50   Input ~ 0
-ETH_RX-
-Text GLabel 9500 1200 0    50   Input ~ 0
-ETH_RX+
-Text GLabel 9500 1100 0    50   Input ~ 0
-ETH_TX-
-Text GLabel 9500 900  0    50   Input ~ 0
-ETH_TX+
-NoConn ~ 10600 1400
-NoConn ~ 10600 1300
 NoConn ~ 2000 4400
 Text Notes 4100 2150 0    50   ~ 0
 Extension
@@ -1799,30 +1732,6 @@ F 3 "" H 3350 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L archive:power_GND #PWR0101
-U 1 1 6309BC0B
-P 3300 3600
-F 0 "#PWR0101" H 3300 3350 50  0001 C CNN
-F 1 "GND" V 3305 3472 50  0000 R CNN
-F 2 "" H 3300 3600 50  0001 C CNN
-F 3 "" H 3300 3600 50  0001 C CNN
-	1    3300 3600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3250 3600 3300 3600
-$Comp
-L archive:power_GND #PWR0102
-U 1 1 630DA049
-P 10850 1850
-F 0 "#PWR0102" H 10850 1600 50  0001 C CNN
-F 1 "GND" H 10855 1677 50  0000 C CNN
-F 2 "" H 10850 1850 50  0001 C CNN
-F 3 "" H 10850 1850 50  0001 C CNN
-	1    10850 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L archive:power_GND #PWR0103
 U 1 1 631356E2
 P 3350 1050
@@ -1882,26 +1791,6 @@ Connection ~ 5850 1200
 Wire Wire Line
 	5700 800  5850 800 
 Connection ~ 5850 800 
-Wire Wire Line
-	9650 1800 10050 1800
-Wire Wire Line
-	10250 1800 10700 1800
-$Comp
-L archive:Device_C_Small C14
-U 1 1 607612B2
-P 10150 1800
-F 0 "C14" V 10379 1800 50  0000 C CNN
-F 1 "0.1 uF" V 10288 1800 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 10150 1800 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2608733.pdf" H 10150 1800 50  0001 C CNN
-F 4 "Vishay" H 10150 1800 50  0001 C CNN "Manufacturer"
-F 5 "BC1084CT-ND" H 10150 1800 50  0001 C CNN "digikey_pn"
-F 6 "K104K15X7RF5TL2" H 10150 1800 50  0001 C CNN "mpn"
-F 7 "2860097" H 10150 1800 50  0001 C CNN "farnell_pn"
-F 8 "594-K104K15X7RF5TL2" H 10150 1800 50  0001 C CNN "mouser_pn"
-	1    10150 1800
-	0    -1   -1   0   
-$EndComp
 $Comp
 L archive:Device_Fuse_Small F2
 U 1 1 60ADC17F
@@ -1976,23 +1865,6 @@ F 3 "" H 1100 6600 50  0001 C CNN
 	1    1100 6600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10700 1000 10700 1800
-Wire Wire Line
-	10700 1800 10850 1800
-Wire Wire Line
-	10850 1800 10850 1850
-Connection ~ 10700 1800
-Wire Wire Line
-	10800 1100 10600 1100
-NoConn ~ 10600 1200
-NoConn ~ 10600 1500
-NoConn ~ 9700 1500
-Wire Wire Line
-	10600 900  10700 900 
-Wire Wire Line
-	10700 900  10700 1000
-Connection ~ 10700 1000
 NoConn ~ 3250 2650
 NoConn ~ 3250 2550
 $Comp
@@ -2187,4 +2059,119 @@ Wire Wire Line
 	2150 4400 2150 4600
 Wire Wire Line
 	1850 4400 1850 4600
+NoConn ~ 3250 4000
+NoConn ~ 3250 3900
+NoConn ~ 3250 3800
+NoConn ~ 3250 3700
+NoConn ~ 3250 3600
+NoConn ~ 3250 3500
+$Comp
+L SamacSys_Parts:J1B1211CCD J22
+U 1 1 61700052
+P 10150 850
+F 0 "J22" H 10600 1115 50  0000 C CNN
+F 1 "J1B1211CCD" H 10600 1024 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Cetus_J1B1211CCD_Horizontal" H 10900 950 50  0001 L CNN
+F 3 "http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz550web:wiz550webds_kr:j1b1211ccd.pdf" H 10900 850 50  0001 L CNN
+F 4 "Modules Accessories RJ-45 w/ Transformer Connector /CETUS" H 10900 750 50  0001 L CNN "Description"
+F 5 "" H 10900 650 50  0001 L CNN "Height"
+F 6 "950-J1B1211CCD" H 10900 550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/WIZnet/J1B1211CCD?qs=6pHq9bjOlanFLUlTDcmBeQ%3D%3D" H 10900 450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "WIZnet Inc" H 10900 350 50  0001 L CNN "Manufacturer_Name"
+F 9 "J1B1211CCD" H 10900 250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10150 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J13
+U 1 1 617027FA
+P 9500 1150
+F 0 "J13" H 9550 1350 50  0000 C CNN
+F 1 "Eth" H 9550 1650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical" H 9500 1150 50  0001 C CNN
+F 3 "~" H 9500 1150 50  0001 C CNN
+	1    9500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 6170311C
+P 10000 850
+F 0 "C2" H 10200 900 50  0000 R CNN
+F 1 "0.1uF" H 10250 800 50  0000 R CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 10000 850 50  0001 C CNN
+F 3 "~" H 10000 850 50  0001 C CNN
+	1    10000 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9300 1050 9300 850 
+Wire Wire Line
+	9800 1050 10150 1050
+Wire Wire Line
+	9300 850  10150 850 
+Wire Wire Line
+	9300 1150 9200 1150
+Wire Wire Line
+	9200 1150 9200 700 
+Wire Wire Line
+	9200 700  10000 700 
+Wire Wire Line
+	11150 700  11150 850 
+Wire Wire Line
+	11150 850  11050 850 
+Wire Wire Line
+	11150 850  11150 950 
+Wire Wire Line
+	11150 950  11050 950 
+Connection ~ 11150 850 
+Wire Wire Line
+	11050 1050 11150 1050
+Wire Wire Line
+	11150 1050 11150 1600
+Wire Wire Line
+	11150 1600 9950 1600
+Wire Wire Line
+	9950 1600 9950 1150
+Wire Wire Line
+	9950 1150 9800 1150
+Wire Wire Line
+	10150 1350 9200 1350
+Wire Wire Line
+	9200 1350 9200 1250
+Wire Wire Line
+	9200 1250 9300 1250
+Wire Wire Line
+	9800 1250 10050 1250
+Wire Wire Line
+	10050 1250 10050 1150
+Wire Wire Line
+	10050 1150 10150 1150
+Wire Wire Line
+	10150 1250 10100 1250
+Wire Wire Line
+	10100 1250 10100 950 
+Wire Wire Line
+	10100 950  10150 950 
+Wire Wire Line
+	10000 750  10000 700 
+Connection ~ 10000 700 
+Wire Wire Line
+	10000 700  11150 700 
+Wire Wire Line
+	10100 950  10000 950 
+Connection ~ 10100 950 
+NoConn ~ 10150 1450
+NoConn ~ 11050 1450
+NoConn ~ 11050 1350
+NoConn ~ 11050 1250
+NoConn ~ 11050 1150
+Text Label 9400 850  0    50   ~ 0
+TX+
+Text Label 9850 1050 0    50   ~ 0
+TX-
+Text Label 9800 1350 0    50   ~ 0
+RX-
+Text Label 9800 1250 0    50   ~ 0
+RX+
 $EndSCHEMATC
