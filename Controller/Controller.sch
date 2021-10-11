@@ -1582,7 +1582,7 @@ NoConn ~ 3250 3700
 NoConn ~ 3250 3600
 NoConn ~ 3250 3500
 $Comp
-L SamacSys_Parts:J1B1211CCD J22
+L archive:SamacSys_Parts_J1B1211CCD J22
 U 1 1 61700052
 P 10150 850
 F 0 "J22" H 10600 1115 50  0000 C CNN
@@ -1599,7 +1599,7 @@ F 9 "J1B1211CCD" H 10900 250 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J13
+L archive:Connector_Generic_Conn_02x03_Odd_Even J13
 U 1 1 617027FA
 P 9500 1150
 F 0 "J13" H 9550 1350 50  0000 C CNN
@@ -1610,7 +1610,7 @@ F 3 "~" H 9500 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C2
+L archive:Device_CP1_Small C2
 U 1 1 6170311C
 P 10000 850
 F 0 "C2" H 10200 900 50  0000 R CNN
