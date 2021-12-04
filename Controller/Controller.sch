@@ -536,7 +536,7 @@ U 1 1 6096BC9D
 P 6600 7400
 F 0 "J12" H 6680 7442 50  0000 L CNN
 F 1 "Temp2" H 6680 7351 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 6600 7400 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" H 6600 7400 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6600 7400 50  0001 C CNN
 F 4 "JST Sales America Inc." H 6600 7400 50  0001 C CNN "Manufacturer"
 F 5 "455-1720-ND" H 6600 7400 50  0001 C CNN "digikey_pn"
@@ -551,7 +551,7 @@ U 1 1 6096FA85
 P 5950 7400
 F 0 "J9" H 6030 7442 50  0000 L CNN
 F 1 "Temp1" H 6030 7351 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 5950 7400 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" H 5950 7400 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5950 7400 50  0001 C CNN
 F 4 "JST Sales America Inc." H 5950 7400 50  0001 C CNN "Manufacturer"
 F 5 "455-1720-ND" H 5950 7400 50  0001 C CNN "digikey_pn"
@@ -593,8 +593,6 @@ F 3 "~" H 5500 7300 50  0001 C CNN
 	1    5500 7300
 	1    0    0    -1  
 $EndComp
-Text Label 5350 7200 2    50   ~ 0
-Temp
 Text Notes 6450 7150 0    50   ~ 0
 Temperature
 Text Notes 700  6100 2    39   ~ 0
@@ -711,15 +709,15 @@ don't connect
 Text Notes 1050 2350 2    20   ~ 0
 don't connect
 Text GLabel 6750 4350 0    50   Input ~ 0
-Relay1
+Relay5
 Text GLabel 6750 4250 0    50   Input ~ 0
-Relay2
+Relay4
 Text GLabel 6750 4150 0    50   Input ~ 0
 Relay3
 Text GLabel 6750 4050 0    50   Input ~ 0
-Relay4
+Relay2
 Text GLabel 6750 3950 0    50   Input ~ 0
-Relay5
+Relay1
 Text Notes 5100 600  0    50   ~ 0
 Power
 $Comp
@@ -728,7 +726,7 @@ U 1 1 60D665E5
 P 4600 7300
 F 0 "J6" H 4680 7342 50  0000 L CNN
 F 1 "Pressure" H 4680 7251 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 4600 7300 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" H 4600 7300 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4600 7300 50  0001 C CNN
 F 4 "JST Sales America Inc." H 4600 7300 50  0001 C CNN "Manufacturer"
 F 5 "455-1720-ND" H 4600 7300 50  0001 C CNN "digikey_pn"
@@ -932,7 +930,6 @@ F 3 "~" H 9300 4650 50  0001 C CNN
 $EndComp
 NoConn ~ 7650 4550
 NoConn ~ 6850 4550
-NoConn ~ 6850 4450
 Text Notes 2450 5300 0    50   ~ 0
 Wifi (optional)
 Text GLabel 3350 2150 2    50   Input ~ 0
@@ -963,7 +960,7 @@ U 1 1 61BBC3A9
 P 5350 6800
 F 0 "J7" H 5322 6682 50  0000 R CNN
 F 1 "Acid Level" H 5450 6900 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 5350 6800 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 5350 6800 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5350 6800 50  0001 C CNN
 F 4 "JST Sales America Inc." H 5350 6800 50  0001 C CNN "Manufacturer"
 F 5 "9491902" H 5350 6800 50  0001 C CNN "farnell_pn"
@@ -978,7 +975,7 @@ U 1 1 61BBDB87
 P 6200 6800
 F 0 "J10" H 6172 6682 50  0000 R CNN
 F 1 "Chlorine Level" H 6300 6900 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 6200 6800 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" H 6200 6800 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 6200 6800 50  0001 C CNN
 F 4 "JST Sales America Inc." H 6200 6800 50  0001 C CNN "Manufacturer"
 F 5 "9491902" H 6200 6800 50  0001 C CNN "farnell_pn"
@@ -1175,15 +1172,15 @@ NoConn ~ 2450 4400
 Text GLabel 3350 2450 2    50   Input ~ 0
 Probe_RST
 Text GLabel 950  2850 0    50   Input ~ 0
-Relay1
+Relay5
 Text GLabel 950  2950 0    50   Input ~ 0
-Relay2
+Relay4
 Text GLabel 950  3050 0    50   Input ~ 0
 Relay3
 Text GLabel 950  3150 0    50   Input ~ 0
-Relay4
+Relay2
 Text GLabel 950  3250 0    50   Input ~ 0
-Relay5
+Relay1
 Text GLabel 3350 3050 2    50   Input ~ 0
 ESP_TX
 Text GLabel 3350 3150 2    50   Input ~ 0
@@ -1210,7 +1207,7 @@ U 1 1 62EA9501
 P 4800 5950
 F 0 "J19" H 4772 5882 50  0000 R CNN
 F 1 "Flood sensor" H 5100 6150 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 4800 5950 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" H 4800 5950 50  0001 C CNN
 F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4800 5950 50  0001 C CNN
 F 4 "JST Sales America Inc." H 4800 5950 50  0001 C CNN "Manufacturer"
 F 5 "455-1720-ND" H 4800 5950 50  0001 C CNN "digikey_pn"
@@ -1388,8 +1385,6 @@ F 3 "" H 1100 6600 50  0001 C CNN
 	1    1100 6600
 	0    1    1    0   
 $EndComp
-NoConn ~ 3250 2650
-NoConn ~ 3250 2550
 $Comp
 L archive:Connector_Generic_Conn_02x07_Odd_Even J2
 U 1 1 60E46C49
@@ -2284,4 +2279,18 @@ Wire Wire Line
 Connection ~ 7700 3950
 Wire Wire Line
 	7700 3950 7700 4550
+Text GLabel 3350 2550 2    50   Input ~ 0
+Relay6
+Wire Wire Line
+	3350 2550 3250 2550
+Text GLabel 6750 4450 0    50   Input ~ 0
+Relay6
+Wire Wire Line
+	6750 4450 6850 4450
+Text GLabel 5350 7200 0    50   Input ~ 0
+Temp
+Text GLabel 3350 2650 2    50   Input ~ 0
+Temp
+Wire Wire Line
+	3350 2650 3250 2650
 $EndSCHEMATC
