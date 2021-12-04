@@ -1201,21 +1201,6 @@ LCD_DC
 NoConn ~ 2000 4400
 Text Notes 4100 2150 0    50   ~ 0
 Extension
-$Comp
-L archive:Connector_Conn_01x03_Male J19
-U 1 1 62EA9501
-P 4800 5950
-F 0 "J19" H 4772 5882 50  0000 R CNN
-F 1 "Flood sensor" H 5100 6150 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" H 4800 5950 50  0001 C CNN
-F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4800 5950 50  0001 C CNN
-F 4 "JST Sales America Inc." H 4800 5950 50  0001 C CNN "Manufacturer"
-F 5 "455-1720-ND" H 4800 5950 50  0001 C CNN "digikey_pn"
-F 6 "S3B-PH-K-S" H 4800 5950 50  0001 C CNN "mpn"
-F 7 "9491910" H 4800 5950 50  0001 C CNN "farnell_pn"
-	1    4800 5950
-	-1   0    0    1   
-$EndComp
 Text GLabel 4500 6050 0    50   Input ~ 0
 flood
 $Comp
@@ -2293,4 +2278,19 @@ Text GLabel 3350 2650 2    50   Input ~ 0
 Temp
 Wire Wire Line
 	3350 2650 3250 2650
+$Comp
+L archive:Connector_Conn_01x03_Male J19
+U 1 1 62EA9501
+P 4800 5950
+F 0 "J19" H 4772 5882 50  0000 R CNN
+F 1 "Flood sensor" H 5100 6150 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" H 4800 5950 50  0001 C CNN
+F 3 "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 4800 5950 50  0001 C CNN
+F 4 "JST Sales America Inc." H 4800 5950 50  0001 C CNN "Manufacturer"
+F 5 "455-1720-ND" H 4800 5950 50  0001 C CNN "digikey_pn"
+F 6 "S3B-PH-K-S" H 4800 5950 50  0001 C CNN "mpn"
+F 7 "9491910" H 4800 5950 50  0001 C CNN "farnell_pn"
+	1    4800 5950
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
