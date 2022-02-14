@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J2
+L archive:Connector_Generic_Conn_02x20_Odd_Even J2
 U 1 1 62095E19
 P 3750 1650
 F 0 "J2" H 3800 2767 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "~" H 3750 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x07_Odd_Even J1
+L archive:Connector_Generic_Conn_02x07_Odd_Even J1
 U 1 1 6209B0F5
 P 1600 1400
 F 0 "J1" H 1650 1917 50  0000 C CNN
@@ -56,7 +56,7 @@ LCD_DC
 Text GLabel 2050 1300 2    50   Input ~ 0
 LCD_MOSI
 $Comp
-L power:GND #PWR01
+L archive:power_GND #PWR01
 U 1 1 620A2A3D
 P 1250 1100
 F 0 "#PWR01" H 1250 850 50  0001 C CNN
@@ -97,7 +97,7 @@ Wire Wire Line
 	1300 1100 1250 1100
 NoConn ~ 1900 1100
 $Comp
-L power:+3V3 #PWR02
+L archive:power_+3V3 #PWR02
 U 1 1 620A46C2
 P 2050 1200
 F 0 "#PWR02" H 2050 1050 50  0001 C CNN
@@ -110,7 +110,7 @@ $EndComp
 Wire Wire Line
 	1900 1200 2050 1200
 $Comp
-L power:GND #PWR03
+L archive:power_GND #PWR03
 U 1 1 620A53DF
 P 3450 750
 F 0 "#PWR03" H 3450 500 50  0001 C CNN
@@ -121,7 +121,7 @@ F 3 "" H 3450 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR04
+L archive:power_+3V3 #PWR04
 U 1 1 620A6063
 P 4150 750
 F 0 "#PWR04" H 4150 600 50  0001 C CNN
@@ -145,8 +145,6 @@ Text GLabel 3450 1850 0    50   Input ~ 0
 LCD_CS
 Text GLabel 4150 2050 2    50   Input ~ 0
 LCD_MISO
-Text GLabel 4150 1850 2    50   Input ~ 0
-LCD_SCLK
 Text GLabel 3450 1950 0    50   Input ~ 0
 LCD_DC
 Text GLabel 3450 2050 0    50   Input ~ 0
@@ -165,8 +163,6 @@ Wire Wire Line
 	4050 2150 4150 2150
 Wire Wire Line
 	4150 2050 4050 2050
-Wire Wire Line
-	4050 1850 4150 1850
 Wire Wire Line
 	4050 750  4150 750 
 Wire Wire Line
@@ -204,7 +200,7 @@ NoConn ~ 4050 2450
 NoConn ~ 4050 2550
 NoConn ~ 4050 2650
 $Comp
-L power:PWR_FLAG #FLG0101
+L archive:power_PWR_FLAG #FLG0101
 U 1 1 620B59E8
 P 2050 1000
 F 0 "#FLG0101" H 2050 1075 50  0001 C CNN
@@ -215,7 +211,7 @@ F 3 "~" H 2050 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
+L archive:power_PWR_FLAG #FLG0102
 U 1 1 620B642E
 P 1300 1000
 F 0 "#FLG0102" H 1300 1075 50  0001 C CNN
@@ -230,4 +226,8 @@ Wire Wire Line
 Wire Wire Line
 	2050 1000 2050 1200
 Connection ~ 2050 1200
+Wire Wire Line
+	4050 1850 4150 1850
+Text GLabel 4150 1850 2    50   Input ~ 0
+LCD_SCLK
 $EndSCHEMATC
