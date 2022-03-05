@@ -26,13 +26,13 @@ jobs:
         schema: 'Controller/Controller.sch'
         board: 'Controller/Controller.kicad_pcb'
         verbose: 1
-    - name: export_probe
+    - name: export_probes
       uses: nerdyscout/kicad-exports@v2.3
       with:
         config: config/config.kibot.yaml
         dir: docs
-        schema: 'Probe/Probe.sch'
-        board: 'Probe/Probe.kicad_pcb'
+        schema: 'Probes/Probes.sch'
+        board: 'Probes/Probes.kicad_pcb'
         verbose: 1
     - name: export_display
       uses: nerdyscout/kicad-exports@v2.3
