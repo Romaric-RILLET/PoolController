@@ -29,8 +29,8 @@
     (45 Margin user)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
-    (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (48 B.Fab user)
+    (49 F.Fab user)
   )
 
   (setup
@@ -155,7 +155,7 @@
     (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
@@ -174,7 +174,7 @@
     (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
@@ -193,7 +193,7 @@
     (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.2 0) (layer Cmts.User) (width 0.15))
@@ -212,7 +212,7 @@
     (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
+    (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3.45 0) (layer F.CrtYd) (width 0.05))
@@ -826,7 +826,7 @@
     (fp_text reference J4 (at 4 -2.9) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x05_Male (at 4 4) (layer F.Fab)
+    (fp_text value Conn_01x05_Male (at 4 4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 10.45 -2.2) (end -2.45 -2.2) (layer F.CrtYd) (width 0.05))
@@ -904,7 +904,7 @@
     (fp_text reference J3 (at 4 -2.9 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Conn_01x05_Male (at 4 4 90) (layer F.Fab)
+    (fp_text value Conn_01x05_Male (at 4 4 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 10.45 -2.2) (end -2.45 -2.2) (layer F.CrtYd) (width 0.05))

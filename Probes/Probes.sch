@@ -22,7 +22,7 @@ F 1 "Conn_01x05_Male" H 10922 983 50  0001 R CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 10950 1050 50  0001 C CNN
 F 3 "~" H 10950 1050 50  0001 C CNN
 	1    10950 1050
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L archive:Connector_Conn_01x05_Male J4
