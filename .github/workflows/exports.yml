@@ -46,7 +46,7 @@ jobs:
       run: |
          git config --global user.name "Romaric-RILLET"
          git config --global user.email "Romaric-RILLET@users.noreply.github.com"      
-         git add docs/*.pdf docs/*ibom.html
+         git add docs/*.pdf docs/*ibom.html docs/*-JLCPCB.zip
          git commit -m "github action"
          git push
 
