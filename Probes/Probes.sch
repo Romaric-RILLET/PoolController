@@ -55,21 +55,21 @@ $EndComp
 $Comp
 L archive:SamacSys_Parts_ADUM1251ARZ IC1
 U 1 1 621EB135
-P 7950 2950
-F 0 "IC1" H 8500 3215 50  0000 C CNN
-F 1 "ADUM1251ARZ" H 8500 3124 50  0000 C CNN
-F 2 "SamacSys_Parts:SOIC127P600X175-8N" H 8900 3050 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA3/264898.pdf" H 8900 2950 50  0001 L CNN
-F 4 "Hot Swappable, Dual I2C Isolators" H 8900 2850 50  0001 L CNN "Description"
-F 5 "1.75" H 8900 2750 50  0001 L CNN "Height"
-F 6 "Analog Devices" H 8900 2650 50  0001 L CNN "Manufacturer_Name"
-F 7 "ADUM1251ARZ" H 8900 2550 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "584-ADUM1251ARZ" H 8900 2450 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADUM1251ARZ?qs=WIvQP4zGani5W7Ldr0QsZA%3D%3D" H 8900 2350 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ADUM1251ARZ" H 8900 2250 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/adum1251arz/analog-devices?region=nac" H 8900 2150 50  0001 L CNN "Arrow Price/Stock"
-	1    7950 2950
-	1    0    0    -1  
+P 9050 2950
+F 0 "IC1" H 9600 3215 50  0000 C CNN
+F 1 "ADUM1251ARZ" H 9600 3124 50  0000 C CNN
+F 2 "SamacSys_Parts:SOIC127P600X175-8N" H 10000 3050 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA3/264898.pdf" H 10000 2950 50  0001 L CNN
+F 4 "Hot Swappable, Dual I2C Isolators" H 10000 2850 50  0001 L CNN "Description"
+F 5 "1.75" H 10000 2750 50  0001 L CNN "Height"
+F 6 "Analog Devices" H 10000 2650 50  0001 L CNN "Manufacturer_Name"
+F 7 "ADUM1251ARZ" H 10000 2550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "584-ADUM1251ARZ" H 10000 2450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADUM1251ARZ?qs=WIvQP4zGani5W7Ldr0QsZA%3D%3D" H 10000 2350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ADUM1251ARZ" H 10000 2250 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/adum1251arz/analog-devices?region=nac" H 10000 2150 50  0001 L CNN "Arrow Price/Stock"
+	1    9050 2950
+	-1   0    0    -1  
 $EndComp
 $Comp
 L archive:Analog_ADC_ADS1014IDGS U3
@@ -668,12 +668,12 @@ Wire Wire Line
 	6100 3150 6350 3150
 Connection ~ 6350 3150
 Wire Wire Line
-	6350 3150 7150 3150
+	6350 3150 6850 3150
 Wire Wire Line
 	6450 3300 6450 3050
 Connection ~ 6450 3050
 Wire Wire Line
-	6450 3050 7400 3050
+	6450 3050 6850 3050
 Wire Wire Line
 	5700 2750 5700 2650
 Wire Wire Line
@@ -1264,4 +1264,10 @@ F 3 "" H 2850 1300 60  0000 C CNN
 	3    2850 1300
 	1    0    0    -1  
 $EndComp
+Connection ~ 6850 3150
+Wire Wire Line
+	6850 3150 7150 3150
+Connection ~ 6850 3050
+Wire Wire Line
+	6850 3050 7400 3050
 $EndSCHEMATC
